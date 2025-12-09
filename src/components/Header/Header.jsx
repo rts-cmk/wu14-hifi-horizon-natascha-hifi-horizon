@@ -2,7 +2,7 @@ import { IoSearchSharp } from "react-icons/io5";
 import { HiUser } from "react-icons/hi2";
 import { FaShoppingCart } from "react-icons/fa";
 
-import hifi_logo from '../../assets/images/logo.png'
+import hifi_logo from '../../assets/icons/logo.png'
 import './Header.sass'
 
 export default function Header() {

@@ -8,7 +8,7 @@ export default function Home() {
             <Header />
 
             <main className="home">
-                {/* <Hero /> */}
+                <section className="home__hero"></section>
                 {/* <PopularProducts /> */}
 
                 {/* <AboutUs /> */}
