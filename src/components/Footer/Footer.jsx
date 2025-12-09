@@ -14,7 +14,7 @@ export default function Footer() {
     return (
         <footer className='footer'>
 
-            <nav>
+            <nav className='footer__nav'>
                 <a href="/">Home</a>
                 <a href="/shop">Shop</a>
                 <a href="/about">About Us</a>
@@ -31,16 +31,15 @@ export default function Footer() {
                 <h3>Contact</h3>
                 <div className='footer__address'>
                     <p>2 Joppa Rd, Edinburgh, EH15 2EU</p>
-                    <div>
+                    <div className="phone">
                         <FaPhoneAlt />
-
                         <p>0131 556 7901</p>
                     </div>
                 </div>
                 <div className='footer__address'>
-                    <div>
+                    <p>44 Cow Wynd, Falkirk, Central Region, FK1 1PU</p>
+                    <div className="phone">
                         <FaPhoneAlt />
-
                         <p>01324 629 011</p>
                     </div>
                 </div>
@@ -60,7 +59,7 @@ export default function Footer() {
                 </div>
                 <p>HiFi Horizon (Edinburgh) Ltd is registered in Scotland. No: SC049298. Registered office: 2 Joppa Rd, Edinburgh EH15 2EU</p>
             </section>
-            
+
         </footer>
     )
 }
