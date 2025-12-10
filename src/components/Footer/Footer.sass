@@ -1,16 +1,14 @@
+@use '../../style/variables' as var
+
+    
 .footer
-    // no fixed positioning when done
-    // position: fixed
-    // left: 0
-    // bottom: 0
-    background-color: #000000
+    background-color: var.$secondary-bg-color
     width: 100%
-    color: #ffffff
+    color: var.$secondary-text-color
     padding: 1rem
-    // display: grid
-    // grid-template-columns: 1fr 1fr
-    // gap: 2rem
-    display: none
+    display: grid
+    grid-template-columns: 1fr 1fr
+    gap: 2rem
 
     &__nav, &__support
         display: flex
@@ -20,9 +18,11 @@
         margin-bottom: 1rem
         text-transform: capitalize
         a
-            color: #ffffff
+            color: var.$secondary-text-color
             text-decoration: none
             font-size: 18px
+        a:hover
+            font-weight: 700
 
     &__contact
         grid-column: 1 / 3
@@ -37,4 +37,4 @@
     &__payments
         grid-column: 1 / 3
         grid-row: 3 / 4
-        border-top: 1px solid #BBBFCA
+        border-top: 1px solid var.$border-color

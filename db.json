@@ -1,0 +1,799 @@
+{
+  "products": [
+        {
+            "id": 1,
+            "views": 150,
+            "image": "http://localhost:3001/productimages/cd_afspillere/creek_classic_cd.jpg",
+            "name": "Creek Classic CD",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "CD Players",
+            "brand": "Creek",
+            "description": "Creek Classic CD is a high-quality CD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "CD, CD-R, CD-RW"
+            }
+        },
+        {
+            "id": 2,
+            "views": 152,
+            "image": "http://localhost:3001/productimages/cd_afspillere/creek_Destiny_CD.jpg",
+            "name": "Creek Destiny CD",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "CD Players",
+            "brand": "Creek",
+            "description": "Creek Destiny CD is a high-quality CD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "CD, CD-R, CD-RW"
+            }
+        },
+        {
+            "id": 3,
+            "views": 134,
+            "image": "http://localhost:3001/productimages/cd_afspillere/creek_evo_cd.jpg",
+            "name": "Creek Evo CD",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "CD Players",
+            "brand": "Creek",
+            "description": "Creek Evo CD is a high-quality CD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "CD, CD-R, CD-RW"
+            }
+        },
+        {
+            "id": 4,
+            "views": 123,
+            "image": "http://localhost:3001/productimages/cd_afspillere/Exp_2010S_CD.gif",
+            "name": "Creek Exp 2010S CD",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "CD Players",
+            "brand": "Creek",
+            "description": "Creek Exp 2010S CD is a high-quality CD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "CD, CD-R, CD-RW"
+            }
+        },
+        {
+            "id": 5,
+            "views": 145,
+            "image": "http://localhost:3001/productimages/dvdafspillere/creek_classic.jpg",
+            "name": "Creek Classic DVD",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "DVD Players",
+            "brand": "Creek",
+            "description": "Creek Classic DVD is a high-quality DVD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
+            }
+        },
+        {
+            "id": 6,
+            "views": 145,
+            "image": "http://localhost:3001/productimages/dvdafspillere/exposure_2010S.jpg",
+            "name": "Exposure 2010S DVD",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "DVD Players",
+            "brand": "Exposure",
+            "description": "Exposure 2010S DVD is a high-quality DVD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
+            }
+        },
+        {
+            "id": 7,
+            "views": 190,
+            "image": "http://localhost:3001/productimages/dvdafspillere/parasound_d200.jpg",
+            "name": "Parasound D200",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "DVD Players",
+            "brand": "Parasound",
+            "description": "Parasound D200 is a high-quality DVD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
+            }
+        },
+        {
+            "id": 8,
+            "views": 179,
+            "image": "http://localhost:3001/productimages/dvdafspillere/parasound_halod3.jpg",
+            "name": "Parasound Halo D3",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "DVD Players",
+            "brand": "Parasound",
+            "description": "Parasound Halo D3 is a high-quality DVD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
+            }
+        },
+        {
+            "id": 9,
+            "views": 179,
+            "image": "http://localhost:3001/productimages/effektforstaerkere/manly_mahi.jpg",
+            "name": "Manley Mahi",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Effect Amplifiers",
+            "brand": "Manley",
+            "description": "Manley Mahi is a high-quality effect amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 10,
+            "views": 168,
+            "image": "http://localhost:3001/productimages/effektforstaerkere/manly_neoclassic300b.jpg",
+            "name": "Manley Neoclassic 300B",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Effect Amplifiers",
+            "brand": "Manley",
+            "description": "Manley Neoclassic 300B is a high-quality effect amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 11,
+            "views": 175,
+            "image": "http://localhost:3001/productimages/effektforstaerkere/manly_snapper.jpg",
+            "name": "Manley Snapper",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Effect Amplifiers",
+            "brand": "Manley",
+            "description": "Manley Snapper is a high-quality effect amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 12,
+            "views": 154,
+            "image": "http://localhost:3001/productimages/effektforstaerkere/parasound_haloa23.jpg",
+            "name": "Parasound Halo A23",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Effect Amplifiers",
+            "brand": "Parasound",
+            "description": "Parasound Halo A23 is a high-quality effect amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 13,
+            "views": 145,
+            "image": "http://localhost:3001/productimages/forforstaerkere/creek_OBH_22_Passive_Preamp.jpg",
+            "name": "Creek OBH 22 Passive Preamp",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Pre Amplifiers",
+            "brand": "Creek",
+            "description": "Creek OBH 22 Passive Preamp is a high-quality pre amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 14,
+            "views": 146,
+            "image": "http://localhost:3001/productimages/forforstaerkere/parasound_classic7100.jpg",
+            "name": "Parasound Classic 7100",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Pre Amplifiers",
+            "brand": "Parasound",
+            "description": "Parasound Classic 7100 is a high-quality pre amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 15,
+            "views": 132,
+            "image": "http://localhost:3001/productimages/forforstaerkere/parasound_halo_p3.jpg",
+            "name": "Parasound Halo P3",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Pre Amplifiers",
+            "brand": "Parasound",
+            "description": "Parasound Halo P3 is a high-quality pre amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 16,
+            "views": 180,
+            "image": "http://localhost:3001/productimages/forforstaerkere/Project_prebox.jpg",
+            "name": "Project Prebox",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Pre Amplifiers",
+            "brand": "Project",
+            "description": "Project Prebox is a high-quality pre amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 17,
+            "views": 159,
+            "image": "http://localhost:3001/productimages/hojtalere/boesendorfer_vcs_wall.gif",
+            "name": "Bösendorfer VCS Wall",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Speakers",
+            "brand": "Bösendorfer",
+            "description": "Bösendorfer VCS Wall is a high-quality speaker that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 18,
+            "views": 193,
+            "image": "http://localhost:3001/productimages/hojtalere/epos_m5.gif",
+            "name": "Epos M5",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Speakers",
+            "brand": "Epos",
+            "description": "Epos M5 is a high-quality speaker that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 19,
+            "views": 123,
+            "image": "http://localhost:3001/productimages/hojtalere/harbeth_hl7es2.jpg",
+            "name": "Harbeth HL7ES2",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Speakers",
+            "brand": "Harbeth",
+            "description": "Harbeth HL7ES2 is a high-quality speaker that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 20,
+            "views": 294,
+            "image": "http://localhost:3001/productimages/hojtalere/harbeth_monitor30.jpg",
+            "name": "Harbeth Monitor 30",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Speakers",
+            "brand": "Harbeth",
+            "description": "Harbeth Monitor 30 is a high-quality speaker that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 21,
+            "views": 112,
+            "image": "http://localhost:3001/productimages/hojtalere/harbeth_p3es2.jpg",
+            "name": "Harbeth P3ES2",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Speakers",
+            "brand": "Harbeth",
+            "description": "Harbeth P3ES2 is a high-quality speaker that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 22,
+            "views": 123,
+            "image": "http://localhost:3001/productimages/int_forstaerkere/creek_a50i.jpg",
+            "name": "Creek A50L",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Integrated Amplifiers",
+            "brand": "Creek",
+            "description": "Creek A50L is a high-quality integrated amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 23,
+            "views": 165,
+            "image": "http://localhost:3001/productimages/int_forstaerkere/creek_classic5350SE.jpg",
+            "name": "Creek Classic 5350 SE",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Integrated Amplifiers",
+            "brand": "Creek",
+            "description": "Creek Classic 5350 SE is a high-quality integrated amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 24,
+            "views": 123,
+            "image": "http://localhost:3001/productimages/int_forstaerkere/creek_destinyamp.jpg",
+            "name": "Creek Destiny Amp",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Integrated Amplifiers",
+            "brand": "Creek",
+            "description": "Creek Destiny Amp is a high-quality integrated amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 25,
+            "views": 136,
+            "image": "http://localhost:3001/productimages/int_forstaerkere/manly_snapper.jpg",
+            "name": "Manley Snapper",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Integrated Amplifiers",
+            "brand": "Manley",
+            "description": "Manley Snapper is a high-quality integrated amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 26,
+            "views": 123,
+            "image": "http://localhost:3001/productimages/int_forstaerkere/Manley_Stingray.jpg",
+            "name": "Manley Stingray",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Silver"
+            ],
+            "category": "Integrated Amplifiers",
+            "brand": "Manley",
+            "description": "Manley Stingray is a high-quality integrated amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 27,
+            "views": 145,
+            "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_Debut_3_bl.jpg",
+            "name": "Pro-Ject Debut 3",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Blue",
+                "Red",
+                "Yellow"
+            ],
+            "category": "Turntables",
+            "brand": "Pro-Ject",
+            "description": "Pro-Ject Debut 3 is a high-quality turntable that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 28,
+            "views": 167,
+            "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_Debut_III_red_1.jpg",
+            "name": "Pro-Ject Debut III",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Blue",
+                "Red",
+                "Yellow"
+            ],
+            "category": "Turntables",
+            "brand": "Pro-Ject",
+            "description": "Pro-Ject Debut III is a high-quality turntable that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 29,
+            "views": 189,
+            "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
+            "name": "Pro-Ject Debut III",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Blue",
+                "Red",
+                "Yellow"
+            ],
+            "category": "Turntables",
+            "brand": "Pro-Ject",
+            "description": "Pro-Ject Debut III is a high-quality turntable that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 30,
+            "views": 175,
+            "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_rpm_5.jpg",
+            "name": "Pro-Ject RPM 5",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Red"
+            ],
+            "category": "Turntables",
+            "brand": "Pro-Ject",
+            "description": "Pro-Ject RPM 5 is a high-quality turntable that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 31,
+            "views": 198,
+            "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_rpm10.jpg",
+            "name": "Pro-Ject RPM 10",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Red"
+            ],
+            "category": "Turntables",
+            "brand": "Pro-Ject",
+            "description": "Pro-Ject RPM 10 is a high-quality turntable that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 32,
+            "views": 176,
+            "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD102b.jpg",
+            "name": "Jolida JD102b",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Red"
+            ],
+            "category": "Pre-amplifiers",
+            "brand": "Jolida",
+            "description": "Jolida JD102b is a high-quality pre-amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 33,
+            "views": 154,
+            "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD202a.jpg",
+            "name": "Jolida JD202a",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Red"
+            ],
+            "category": "Pre-amplifiers",
+            "brand": "Jolida",
+            "description": "Jolida JD202a is a high-quality pre-amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 34,
+            "views": 167,
+            "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD300b.jpg",
+            "name": "Jolida JD300b",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Red"
+            ],
+            "category": "Pre-amplifiers",
+            "brand": "Jolida",
+            "description": "Jolida JD300b is a high-quality pre-amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 35,
+            "views": 189,
+            "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD302b.jpg",
+            "name": "Jolida JD302b",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Red"
+            ],
+            "category": "Pre-amplifiers",
+            "brand": "Jolida",
+            "description": "Jolida JD302b is a high-quality pre-amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        },
+        {
+            "id": 36,
+            "views": 172,
+            "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD502b.jpg",
+            "name": "Jolida JD502b",
+            "output": "Digital coaxial and optical",
+            "price": 2999,
+            "colors": [
+                "Black",
+                "Red"
+            ],
+            "category": "Pre-amplifiers",
+            "brand": "Jolida",
+            "description": "Jolida JD502b is a high-quality pre-amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "inStock": true,
+            "specifications": {
+                "Dimensions": "430 x 90 x 320 mm",
+                "Weight": "3.5 kg",
+                "Power Consumption": "15W",
+                "Supported Formats": "N/A"
+            }
+        }
+    ]
+}
