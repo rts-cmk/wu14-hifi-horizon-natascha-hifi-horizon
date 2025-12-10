@@ -1,5 +1,6 @@
 import Header from '../components/Header/Header.jsx'
 import Footer from '../components/Footer/Footer.jsx'
+import Hero from '../components/Hero/Hero.jsx'
 
 export default function Home() {
     
@@ -8,7 +9,7 @@ export default function Home() {
             <Header />
 
             <main className="home">
-                <section className="home__hero"></section>
+                <Hero />
                 {/* <PopularProducts /> */}
 
                 {/* <AboutUs /> */}
