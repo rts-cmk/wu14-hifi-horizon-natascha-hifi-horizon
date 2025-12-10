@@ -1,0 +1,11 @@
+{
+  "products": [
+        {
+            "image": "http://localhost:3001/productimages/user.jpg",
+            "location": "New York City"
+        },
+        {
+
+        }
+    ]
+}

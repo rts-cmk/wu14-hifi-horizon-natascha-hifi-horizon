@@ -1,5 +1,6 @@
 import { Link } from 'react-router'
 import './PopularProducts.sass'
+import ProductItem from '../ProductItem/ProductItem'
 
 
 export default function PopularProducts() {
@@ -13,7 +14,7 @@ export default function PopularProducts() {
             </section>
             
             <div className="popular-products__items">
-                {/* Product items would go here */}
+                <ProductItem />
             </div>
         </section>
     )
