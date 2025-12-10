@@ -1,24 +1,17 @@
+import { Link } from 'react-router';
 import './ProductItem.sass';
 
 
-// export default function ProductItem({ product }) {
-//     return (
-//         <div className="product-item">
-//             <img src={product.image} alt={product.name} className="product-item__image" />
-//             <h3 className="product-item__name">{product.name}</h3>
-//             <p className="product-item__price">${product.price.toFixed(2)}</p>
-//             <button className="product-item__add-to-cart-button">Add to Cart</button>
-//         </div>
-//     );
-// }
-
-export default function ProductItem() {
+export default function ProductItem({ product, children }) {
     return (
-        <div className="product-item">
-            <img src="https://via.placeholder.com/150" alt="Product Name" className="product-item__image" />
-            <h3 className="product-item__name">Product Name</h3>
-            <p className="product-item__price">$99.99</p>
-            <button className="product-item__add-to-cart-button">Add to Cart</button>
-        </div>
+        <article className="product-item" key={product.id}>
+            <img src={product.image} alt={product.name} className="product-item__image" />
+            <section className="product-item__details">
+                <h3 className="product-item__name">{product.name}</h3>
+                <p className='product-item__output'>({product.output} output)</p>
+                <p className="product-item__price">£ {product.price.toFixed(2)}</p>
+                {children}
+            </section>
+        </article>
     );
 }
