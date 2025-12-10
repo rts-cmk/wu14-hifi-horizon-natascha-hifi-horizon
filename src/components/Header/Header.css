@@ -1,0 +1,59 @@
+.header {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 100px;
+  background-color: #000000;
+}
+.header .icon {
+  font-size: 28px;
+  height: 25px;
+  color: #FFFFFF;
+}
+.header__burger-menu {
+  position: relative;
+}
+.header__burger-menu div {
+  width: 25px;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  margin: 2px 0;
+}
+.header__burger-menu--active div {
+  border: 2px solid #FF6900;
+}
+.header__burger-menu:hover {
+  cursor: pointer;
+}
+.header__nav {
+  display: none;
+}
+.header__nav--active {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  top: 3rem;
+  right: -1rem;
+  padding: 4rem 0;
+  width: 200px;
+  background-color: #000000;
+}
+.header__navigation-icon {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+.header__navigation-icon--active {
+  font-weight: 900;
+}
+.header__navigation-icon:hover {
+  font-weight: 700;
+}/*# sourceMappingURL=Header.css.map */

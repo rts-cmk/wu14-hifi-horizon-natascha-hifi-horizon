@@ -2,6 +2,7 @@ import Header from '../components/Header/Header.jsx'
 import Footer from '../components/Footer/Footer.jsx'
 import Hero from '../components/Hero/Hero.jsx'
 import PopularProducts from '../components/PopularProducts/PopularProducts.jsx'
+import AboutUs from '../components/AboutUs/AboutUs.jsx'
 
 export default function Home() {
     
@@ -13,7 +14,7 @@ export default function Home() {
                 <Hero />
                 <PopularProducts />
 
-                {/* <AboutUs /> */}
+                <AboutUs />
 
                 {/* <Newsletter /> */}
 

@@ -1,0 +1,35 @@
+.popular-products {
+  padding: 2rem 1rem;
+  background-color: #F4F4F2;
+}
+.popular-products__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.popular-products__title {
+  font-size: 24px;
+  color: #495464;
+}
+.popular-products__button {
+  background-color: #FF6900;
+  color: #F4F4F2;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 2px 2px 9px 0px rgba(120, 120, 120, 0.99);
+}
+.popular-products__button:hover {
+  box-shadow: 6px 6px 16px -2px rgba(120, 120, 120, 0.99);
+}
+.popular-products__items {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 2rem;
+}/*# sourceMappingURL=PopularProducts.css.map */
