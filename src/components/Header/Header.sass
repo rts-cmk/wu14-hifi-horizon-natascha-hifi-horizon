@@ -24,15 +24,12 @@
         &--active
             div
                 border: 2px solid #FF6900
+    &__burger-menu:hover
+        cursor: pointer
+
     &__nav
         display: none
-        a
-            color: #ffffff
-            text-decoration: none
-            font-size: 16px
-            text-align: center
-            text-transform: uppercase
-            margin: 1rem 0
+        
         &--active
             position: absolute
             display: flex
@@ -45,3 +42,15 @@
             // height: 400px
             width: 200px
             background-color: #000000
+            
+    &__navigation-icon
+        color: #ffffff
+        text-decoration: none
+        font-size: 16px
+        text-align: center
+        text-transform: uppercase
+        margin: 1rem 0
+        &--active
+            font-weight: 700
+    &__navigation-icon:hover
+        font-weight: 700
