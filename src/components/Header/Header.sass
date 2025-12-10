@@ -1,3 +1,5 @@
+@use '../../style/variables' as var
+    
 .header
     position: fixed
     left: 0
@@ -7,23 +9,23 @@
     align-items: center
     padding: 0 1rem
     height: 100px
-    background-color: #000000
+    background-color: var.$secondary-bg-color
 
     .icon
         font-size: 28px
         height: 25px
-        color: #ffffff
+        color: var.$secondary-text-color
 
     &__burger-menu
         position: relative
         div
             width: 25px
-            border: 2px solid #ffffff
+            border: 2px solid var.$secondary-text-color
             border-radius: 2px
             margin: 2px 0
         &--active
             div
-                border: 2px solid #FF6900
+                border: 2px solid var.$button-bg-color
     &__burger-menu:hover
         cursor: pointer
 
@@ -39,10 +41,10 @@
             right: -1rem
             padding: 4rem 0
             width: 200px
-            background-color: #000000
+            background-color: var.$secondary-bg-color
             
     &__navigation-icon
-        color: #ffffff
+        color: var.$secondary-text-color
         text-decoration: none
         font-size: 16px
         text-align: center
