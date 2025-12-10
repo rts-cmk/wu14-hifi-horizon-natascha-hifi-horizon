@@ -6,18 +6,18 @@ import { FaYoutubeSquare } from "react-icons/fa";
 import { FaCcStripe } from "react-icons/fa";
 import { FaCcVisa } from "react-icons/fa6";
 import { FaCcMastercard } from "react-icons/fa6";
-
-
 import './Footer.sass'
+
+
 
 export default function Footer() {
     return (
         <footer className='footer'>
 
             <nav className='footer__nav'>
-                <a href="/">Home</a>
-                <a href="/shop">Shop</a>
-                <a href="/about">About Us</a>
+                <a href="/" className="footer__nav-link">Home</a>
+                <a href="/shop" className="footer__nav-link">Shop</a>
+                <a href="/about" className="footer__nav-link">About Us</a>
             </nav>
             
             <section className='footer__support'>

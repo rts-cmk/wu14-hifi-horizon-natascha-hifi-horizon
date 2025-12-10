@@ -14,6 +14,7 @@ export default function Header() {
         event.currentTarget.querySelector('nav').classList.toggle('header__nav--active');
     };
 
+    // bool for burger menu active state (set to --active if menu is open)
     const isActive = false;
 
     return (
