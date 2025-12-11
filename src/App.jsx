@@ -1,4 +1,5 @@
 import productsLoader from './loaders/productsLoader';
+import Contact from './pages/Contact';
 import Error from './pages/Error';
 import Home from './pages/Home';
 import Product from './pages/Product';
@@ -32,10 +33,10 @@ export default function App() {
       //   path: '/about',
       //   element: <About />
       // },
-      // {
-      //   path: '/contact',
-      //   element: <Contact />
-      // },
+      {
+        path: '/contact',
+        element: <Contact />
+      },
       {
         path: '*',
         element: <Error />
