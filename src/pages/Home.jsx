@@ -3,6 +3,7 @@ import Footer from '../components/Footer/Footer.jsx'
 import Hero from '../components/Hero/Hero.jsx'
 import PopularProducts from '../components/PopularProducts/PopularProducts.jsx'
 import AboutUs from '../components/AboutUs/AboutUs.jsx'
+import Newsletter from '../components/Newsletter/Newsletter.jsx'
 
 export default function Home() {
     
@@ -16,7 +17,7 @@ export default function Home() {
 
                 <AboutUs />
 
-                {/* <Newsletter /> */}
+                <Newsletter />
 
 
             </main>
