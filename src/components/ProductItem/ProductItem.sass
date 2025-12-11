@@ -3,10 +3,12 @@
 
     
 .product-item
+    position: relative
     border-radius: 5px
     display: flex
     flex-direction: column
     align-items: center
+    padding: 1rem
     background-color: var.$secondary-bg-color
     box-shadow: 3px 3px 3px 1px rgba(153,153,153,0.75)
 
@@ -17,7 +19,6 @@
         margin-bottom: 1rem
 
     &__details
-        padding: 0 1rem 1rem
         text-align: center
         display: flex
         flex-direction: column
@@ -36,7 +37,29 @@
     &__price
         font-size: 1.4rem
         font-weight: bold
-        margin: 2rem 0 1rem
+        margin: 2rem 0
 
     &__button
         @include mixin.button()
+
+    &__compare
+        position: absolute
+        top: 10px
+        right: 10px
+        display: flex
+        align-items: center
+        gap: 5px
+    &__compare-icon
+        font-size: 24px
+
+    &__cart-info
+        display: flex
+        align-items: center
+        justify-content: space-between
+        width: 100%
+    &__stock
+        span
+            height: 12px
+            width: 12px
+            border-radius: 50%
+            display: inline-block

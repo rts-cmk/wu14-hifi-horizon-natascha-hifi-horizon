@@ -2,7 +2,7 @@ import productsLoader from './loaders/productsLoader';
 import Error from './pages/Error';
 import Home from './pages/Home';
 import Product from './pages/Product';
-import Products from './pages/Products';
+import Shop from './pages/Shop';
 import './style/_layout.sass'
 import { createBrowserRouter, Router, RouterProvider } from 'react-router'
 
@@ -18,7 +18,7 @@ export default function App() {
       },
       {
         path: '/shop',
-        element: <Products />,
+        element: <Shop />,
         loader: productsLoader,
         hydrateFallbackElement: <p>Loading Products...</p>
       },

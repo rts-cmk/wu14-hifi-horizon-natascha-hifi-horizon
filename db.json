@@ -14,7 +14,7 @@
             "category": "CD Players",
             "brand": "Creek",
             "description": "Creek Classic CD is a high-quality CD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
-            "inStock": true,
+            "inStock": false,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
                 "Weight": "3.5 kg",
@@ -80,7 +80,7 @@
             "category": "CD Players",
             "brand": "Creek",
             "description": "Creek Exp 2010S CD is a high-quality CD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
-            "inStock": true,
+            "inStock": false,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
                 "Weight": "3.5 kg",
