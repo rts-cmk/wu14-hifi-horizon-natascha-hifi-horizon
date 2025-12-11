@@ -2,7 +2,7 @@ import { Link, useLoaderData } from 'react-router'
 import { FiSliders } from "react-icons/fi";
 import ProductItem from '../ProductItem/ProductItem'
 import './Products.sass'
-import { use } from 'react';
+import SortBy from '../SortBy/SortBy';
 
 
 export default function Products() {
@@ -14,7 +14,7 @@ export default function Products() {
     return (
         <section className="products">
 
-            {/* <SortBy /> */}
+            <SortBy />
             
             <section className="products__items">
                 {products && products.length > 0 ? (

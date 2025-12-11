@@ -1,0 +1,35 @@
+@use '../../style/variables' as var
+@use '../../style/mixins' as mixin
+    
+    
+.contact-form
+    display: flex
+    flex-direction: column
+    gap: 1rem
+    background-color: var.$secondary-bg-color
+    padding: 2rem
+    margin: 2rem 0
+    box-shadow: 2px 2px 5px 1px rgba(166,166,166,0.75)
+
+    &__label
+        display: flex
+        flex-direction: column
+        margin-bottom: 0.5rem
+        color: var.$primary-text-color
+        font-weight: bold
+        span
+            color: var.$error-color
+        input, textarea
+            background-color: var.$box-bg-color
+            border: none
+            box-shadow: 2px 2px 2px 1px rgba(166,166,166,0.48)
+            height: 40px
+            margin: .5rem 0 0
+        textarea
+            height: 120px
+            margin: .5rem 0 1rem
+
+    &__button
+        @include mixin.button()
+        align-self: flex-end
+        padding: .5rem 2rem
