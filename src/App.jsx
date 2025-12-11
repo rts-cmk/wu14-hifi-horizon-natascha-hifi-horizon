@@ -1,4 +1,5 @@
 import productsLoader from './loaders/productsLoader';
+import About from './pages/About';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
 import Home from './pages/Home';
@@ -29,10 +30,10 @@ export default function App() {
         loader: productsLoader,
         hydrateFallbackElement: <p>Loading Product...</p>
       },
-      // {
-      //   path: '/about',
-      //   element: <About />
-      // },
+      {
+        path: '/about',
+        element: <About />
+      },
       {
         path: '/contact',
         element: <Contact />
