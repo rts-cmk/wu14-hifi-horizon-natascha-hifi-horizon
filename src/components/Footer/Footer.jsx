@@ -31,31 +31,31 @@ export default function Footer() {
                 <h3>Contact</h3>
                 <div className='footer__address'>
                     <p>2 Joppa Rd, Edinburgh, EH15 2EU</p>
-                    <div className="phone">
-                        <FaPhoneAlt />
+                    <div className="footer__phone">
+                        <FaPhoneAlt  className="footer__phone-icon" />
                         <p>0131 556 7901</p>
                     </div>
                 </div>
                 <div className='footer__address'>
                     <p>44 Cow Wynd, Falkirk, Central Region, FK1 1PU</p>
-                    <div className="phone">
-                        <FaPhoneAlt />
+                    <div className="footer__phone">
+                        <FaPhoneAlt  className="footer__phone-icon" />
                         <p>01324 629 011</p>
                     </div>
                 </div>
                 <div className='footer__socials'>
-                    <ImFacebook2 />
-                    <FaSquareTwitter />
-                    <FaInstagramSquare />
-                    <FaYoutubeSquare />
+                    <ImFacebook2  className="footer__socials-icon" />
+                    <FaSquareTwitter className="footer__socials-icon" />
+                    <FaInstagramSquare className="footer__socials-icon" />
+                    <FaYoutubeSquare className="footer__socials-icon" />
                 </div>
             </section>
 
             <section className='footer__payments'>
                 <div className='footer__methods'>
-                    <FaCcStripe />
-                    <FaCcVisa />
-                    <FaCcMastercard />
+                    <FaCcStripe className="footer__methods-icon" />
+                    <FaCcVisa className="footer__methods-icon" />
+                    <FaCcMastercard className="footer__methods-icon" />
                 </div>
                 <p>HiFi Horizon (Edinburgh) Ltd is registered in Scotland. No: SC049298. Registered office: 2 Joppa Rd, Edinburgh EH15 2EU</p>
             </section>
