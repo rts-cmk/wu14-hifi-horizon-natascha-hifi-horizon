@@ -1,0 +1,22 @@
+@use '../../style/variables' as var
+@use '../../style/mixins' as mixin
+
+
+
+.newsletter
+    border: 2rem solid var.$primary-bg-color
+    padding: 2rem
+    text-align: center
+
+    &__description
+        margin: 1rem 0 2rem
+        font-size: 16px
+
+    &__input
+        background-color: var.$box-bg-color
+        padding: 1rem
+        border: none
+
+    &__button
+        @include mixin.button
+        margin: 1rem 0 0
