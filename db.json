@@ -6,7 +6,7 @@
             "image": "http://localhost:3001/productimages/cd_afspillere/creek_classic_cd.jpg",
             "name": "Creek Classic CD",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,999.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -28,7 +28,7 @@
             "image": "http://localhost:3001/productimages/cd_afspillere/creek_Destiny_CD.jpg",
             "name": "Creek Destiny CD",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,599.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -50,7 +50,7 @@
             "image": "http://localhost:3001/productimages/cd_afspillere/creek_evo_cd.jpg",
             "name": "Creek Evo CD",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "3,499.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -72,7 +72,7 @@
             "image": "http://localhost:3001/productimages/cd_afspillere/Exp_2010S_CD.gif",
             "name": "Creek Exp 2010S CD",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "1,499.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -94,7 +94,7 @@
             "image": "http://localhost:3001/productimages/dvdafspillere/creek_classic.jpg",
             "name": "Creek Classic DVD",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,399.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -116,7 +116,7 @@
             "image": "http://localhost:3001/productimages/dvdafspillere/exposure_2010S.jpg",
             "name": "Exposure 2010S DVD",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "1,299.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -138,7 +138,7 @@
             "image": "http://localhost:3001/productimages/dvdafspillere/parasound_d200.jpg",
             "name": "Parasound D200",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,999.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -146,7 +146,7 @@
             "category": "DVD Players",
             "brand": "Parasound",
             "description": "Parasound D200 is a high-quality DVD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
-            "inStock": true,
+            "inStock": false,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
                 "Weight": "3.5 kg",
@@ -160,7 +160,7 @@
             "image": "http://localhost:3001/productimages/dvdafspillere/parasound_halod3.jpg",
             "name": "Parasound Halo D3",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,799.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -179,10 +179,10 @@
         {
             "id": 9,
             "views": 179,
-            "image": "http://localhost:3001/productimages/effektforstaerkere/manly_mahi.jpg",
+            "image": "http://localhost:3001/productimages/effektforstaerkere/manley_mahi.jpg",
             "name": "Manley Mahi",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "4,999.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -201,10 +201,10 @@
         {
             "id": 10,
             "views": 168,
-            "image": "http://localhost:3001/productimages/effektforstaerkere/manly_neoclassic300b.jpg",
+            "image": "http://localhost:3001/productimages/effektforstaerkere/manley_neoclassic300b.jpg",
             "name": "Manley Neoclassic 300B",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "4,799.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -223,10 +223,10 @@
         {
             "id": 11,
             "views": 175,
-            "image": "http://localhost:3001/productimages/effektforstaerkere/manly_snapper.jpg",
+            "image": "http://localhost:3001/productimages/effektforstaerkere/manley_snapper.jpg",
             "name": "Manley Snapper",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,399.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -248,7 +248,7 @@
             "image": "http://localhost:3001/productimages/effektforstaerkere/parasound_haloa23.jpg",
             "name": "Parasound Halo A23",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "3,899.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -270,7 +270,7 @@
             "image": "http://localhost:3001/productimages/forforstaerkere/creek_OBH_22_Passive_Preamp.jpg",
             "name": "Creek OBH 22 Passive Preamp",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "1,499.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -292,7 +292,7 @@
             "image": "http://localhost:3001/productimages/forforstaerkere/parasound_classic7100.jpg",
             "name": "Parasound Classic 7100",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,999.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -311,10 +311,10 @@
         {
             "id": 15,
             "views": 132,
-            "image": "http://localhost:3001/productimages/forforstaerkere/parasound_halo_p3.jpg",
+            "image": "http://localhost:3001/productimages/forforstaerkere/parasound_halop3.jpg",
             "name": "Parasound Halo P3",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "4,999.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -336,7 +336,7 @@
             "image": "http://localhost:3001/productimages/forforstaerkere/Project_prebox.jpg",
             "name": "Project Prebox",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,299.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -358,7 +358,7 @@
             "image": "http://localhost:3001/productimages/hojtalere/boesendorfer_vcs_wall.gif",
             "name": "Bösendorfer VCS Wall",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "4,499.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -380,8 +380,8 @@
             "image": "http://localhost:3001/productimages/hojtalere/epos_m5.gif",
             "name": "Epos M5",
             "output": "Digital coaxial and optical",
-            "price": 2999,
-            "colors": [
+            "price": "3,899.00",
+            "colors": [ 
                 "Black",
                 "Silver"
             ],
@@ -402,7 +402,7 @@
             "image": "http://localhost:3001/productimages/hojtalere/harbeth_hl7es2.jpg",
             "name": "Harbeth HL7ES2",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,799.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -424,7 +424,7 @@
             "image": "http://localhost:3001/productimages/hojtalere/harbeth_monitor30.jpg",
             "name": "Harbeth Monitor 30",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "4,999.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -446,7 +446,7 @@
             "image": "http://localhost:3001/productimages/hojtalere/harbeth_p3es2.jpg",
             "name": "Harbeth P3ES2",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,999.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -468,7 +468,7 @@
             "image": "http://localhost:3001/productimages/int_forstaerkere/creek_a50i.jpg",
             "name": "Creek A50L",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "1,999.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -490,7 +490,7 @@
             "image": "http://localhost:3001/productimages/int_forstaerkere/creek_classic5350SE.jpg",
             "name": "Creek Classic 5350 SE",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,699.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -512,7 +512,7 @@
             "image": "http://localhost:3001/productimages/int_forstaerkere/creek_destinyamp.jpg",
             "name": "Creek Destiny Amp",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,299.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -531,10 +531,10 @@
         {
             "id": 25,
             "views": 136,
-            "image": "http://localhost:3001/productimages/int_forstaerkere/manly_snapper.jpg",
+            "image": "http://localhost:3001/productimages/int_forstaerkere/manley_snapper.jpg",
             "name": "Manley Snapper",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "4,999.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -556,7 +556,7 @@
             "image": "http://localhost:3001/productimages/int_forstaerkere/Manley_Stingray.jpg",
             "name": "Manley Stingray",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "3,799.00",
             "colors": [
                 "Black",
                 "Silver"
@@ -578,7 +578,7 @@
             "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_Debut_3_bl.jpg",
             "name": "Pro-Ject Debut 3",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "1,899.00",
             "colors": [
                 "Blue",
                 "Red",
@@ -587,7 +587,7 @@
             "category": "Turntables",
             "brand": "Pro-Ject",
             "description": "Pro-Ject Debut 3 is a high-quality turntable that delivers exceptional sound performance with digital coaxial and optical outputs.",
-            "inStock": true,
+            "inStock": false,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
                 "Weight": "3.5 kg",
@@ -601,7 +601,7 @@
             "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_Debut_III_red_1.jpg",
             "name": "Pro-Ject Debut III",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,299.00",
             "colors": [
                 "Blue",
                 "Red",
@@ -624,7 +624,7 @@
             "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
             "name": "Pro-Ject Debut III",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "1,499.00",
             "colors": [
                 "Blue",
                 "Red",
@@ -647,7 +647,7 @@
             "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_rpm_5.jpg",
             "name": "Pro-Ject RPM 5",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,999.00",
             "colors": [
                 "Black",
                 "Red"
@@ -669,7 +669,7 @@
             "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_rpm10.jpg",
             "name": "Pro-Ject RPM 10",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,999.00",
             "colors": [
                 "Black",
                 "Red"
@@ -691,7 +691,7 @@
             "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD102b.jpg",
             "name": "Jolida JD102b",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "4,699.00",
             "colors": [
                 "Black",
                 "Red"
@@ -713,7 +713,7 @@
             "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD202a.jpg",
             "name": "Jolida JD202a",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,999.00",
             "colors": [
                 "Black",
                 "Red"
@@ -735,7 +735,7 @@
             "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD300b.jpg",
             "name": "Jolida JD300b",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "1,799.00",
             "colors": [
                 "Black",
                 "Red"
@@ -757,7 +757,7 @@
             "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD302b.jpg",
             "name": "Jolida JD302b",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "2,599.00",
             "colors": [
                 "Black",
                 "Red"
@@ -779,7 +779,7 @@
             "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD502b.jpg",
             "name": "Jolida JD502b",
             "output": "Digital coaxial and optical",
-            "price": 2999,
+            "price": "3,999.00",
             "colors": [
                 "Black",
                 "Red"
@@ -787,7 +787,7 @@
             "category": "Pre-amplifiers",
             "brand": "Jolida",
             "description": "Jolida JD502b is a high-quality pre-amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
-            "inStock": true,
+            "inStock": false,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
                 "Weight": "3.5 kg",

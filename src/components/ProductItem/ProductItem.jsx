@@ -8,7 +8,7 @@ export default function ProductItem({ product, children }) {
             <section className="product-item__details">
                 <h3 className="product-item__name">{product.name}</h3>
                 <p className='product-item__output'>({product.output} output)</p>
-                <p className="product-item__price">£ {product.price.toFixed(2)}</p>
+                <p className="product-item__price">£ {product.price}</p>
                 {children}
             </section>
         </article>
