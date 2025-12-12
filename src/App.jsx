@@ -1,3 +1,4 @@
+import historiesLoader from './loaders/historyLoader';
 import productsLoader from './loaders/productsLoader';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -32,7 +33,9 @@ export default function App() {
       },
       {
         path: '/about',
-        element: <About />
+        element: <About />,
+        loader: historiesLoader,
+        hydrateFallbackElement: <p>Loading Histories...</p>
       },
       {
         path: '/contact',
