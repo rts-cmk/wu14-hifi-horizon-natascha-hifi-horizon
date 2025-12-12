@@ -15,6 +15,15 @@ export default function Details() {
     const product = products.find(p => p.id == id);
     // console.log(product);
 
+    const selectedColor = (event) => {
+        const allColors = document.querySelectorAll('.details__color-span--active');
+        allColors.forEach(span => span.classList.remove('details__color-span--active'));
+        event.currentTarget.classList.add('details__color-span--active');
+    };
+
+    // bool for burger menu active state (set to --active if menu is open)
+    const isActive = false;
+
     // const [quantity, setQuantity] = useState(1);
 
     
@@ -53,7 +62,7 @@ export default function Details() {
                             {product.colors.map((color, index) => (
                                 // details__color--active when color is selected
                                 <div key={index} className="details__color">
-                                    <span key={index} className="details__color-span details__color-span--active" style={{ backgroundColor: color.toLowerCase() }}></span>
+                                    <span key={index} onClick={selectedColor} className={`details__color-span ${isActive ? "details__color-span--active" :  "details__color-span"}`} style={{ backgroundColor: color.toLowerCase() }}></span>
                                     <p>{color}</p>
                                 </div>
                             ))}
