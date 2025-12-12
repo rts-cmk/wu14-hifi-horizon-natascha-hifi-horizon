@@ -14,21 +14,31 @@ export default function Specifications() {
 
     return (
         <section className="specifications">
-            <h2 className="specifications__title">Product Specifications</h2>
-            <ul className="specifications__list">
-                <li className="specifications__item">
-                    {product.specifications.dimensions && <p><strong>Dimensions:</strong> {product.specifications.dimensions}</p>}
-                </li>
-                <li>
-                    {product.specifications.weight && <p><strong>Weight:</strong> {product.specifications.weight}</p>}
-                </li>
-                <li>
-                    {product.specifications.power_consumption && <p><strong>Power Consumption:</strong> {product.specifications.power_consumption}</p>}
-                </li>
-                <li>
-                    {product.specifications.supported_formats && <p><strong>Supported Formats:</strong> {product.specifications.supported_formats}</p>}
-                </li>
-            </ul>
+            <table className="specifications__table">
+                <thead>
+                    <tr>
+                        <th colSpan="2" className="specifications__title">Product Specifications</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td className='specifications__spec-name'><strong>Dimensions</strong></td>
+                        <td className='specifications__spec-value'>{product.specifications.dimensions}</td>
+                    </tr>
+                    <tr>
+                        <td className='specifications__spec-name'><strong>Weight</strong></td>
+                        <td className='specifications__spec-value'>{product.specifications.weight}</td>
+                    </tr>
+                    <tr>
+                        <td className='specifications__spec-name'><strong>Power Consumption</strong></td>
+                        <td className='specifications__spec-value'>{product.specifications.power_consumption}</td>
+                    </tr>
+                    <tr>
+                        <td className='specifications__spec-name'><strong>Supported Formats</strong></td>
+                        <td className='specifications__spec-value'>{product.specifications.supported_formats}</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     );
 }
