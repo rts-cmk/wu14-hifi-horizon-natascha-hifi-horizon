@@ -1,0 +1,32 @@
+@use '../../style/variables.sass' as var
+    
+    
+    
+.specifications
+    padding: 3rem 0
+
+    &__title
+        text-align: center
+        margin-bottom: 2rem
+        font-size: 22px
+        text-transform: uppercase
+
+    &__table
+        width: 100%
+        border-collapse: collapse
+        th
+            background-color: var.$primary-bg-color
+            padding: 2rem
+        td
+            padding: 1rem
+        tr
+            background-color: var.$secondary-bg-color
+        tr:nth-child(odd)
+            background-color: var.$box-bg-color
+        
+    &__spec-name
+        font-weight: bold
+        border-right: 1px solid #D2D2D2
+    &__spec-value
+        text-align: right
+        font-style: italic
