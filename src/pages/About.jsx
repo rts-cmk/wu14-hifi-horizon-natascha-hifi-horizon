@@ -1,6 +1,7 @@
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import '../style/_layout.sass'
+import OurHistory from "../components/OurHistory/OurHistory";
 
 
 export default function About() {
@@ -13,7 +14,7 @@ export default function About() {
 
                 <h1>Our history</h1>
 
-
+                <OurHistory />
 
             </main>
 
