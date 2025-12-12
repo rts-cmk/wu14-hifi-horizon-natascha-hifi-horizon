@@ -80,10 +80,10 @@
             ],
             "inStock": false,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "CD, CD-R, CD-RW"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "CD, CD-R, CD-RW"
             }
         },
         {
@@ -105,10 +105,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "CD, CD-R, CD-RW"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "CD, CD-R, CD-RW"
             }
         },
         {
@@ -130,10 +130,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "CD, CD-R, CD-RW"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "CD, CD-R, CD-RW"
             }
         },
         {
@@ -155,10 +155,10 @@
             ],  
             "inStock": false,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "CD, CD-R, CD-RW"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "CD, CD-R, CD-RW"
             }
         },
         {
@@ -180,10 +180,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
             }
         },
         {
@@ -205,10 +205,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
             }
         },
         {
@@ -230,10 +230,10 @@
             ],
             "inStock": false,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
             }
         },
         {
@@ -255,10 +255,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
             }
         },
         {
@@ -280,10 +280,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -305,10 +305,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -330,10 +330,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -355,10 +355,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -380,10 +380,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -405,10 +405,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -430,10 +430,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -455,10 +455,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -480,10 +480,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -505,10 +505,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -530,10 +530,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -555,10 +555,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -580,10 +580,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -605,10 +605,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -630,10 +630,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -655,10 +655,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -680,10 +680,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -705,10 +705,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -731,10 +731,10 @@
             ],
             "inStock": false,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -757,10 +757,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -783,10 +783,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -808,10 +808,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -833,10 +833,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -858,10 +858,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -883,10 +883,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -908,10 +908,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -933,10 +933,10 @@
             ],
             "inStock": true,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         },
         {
@@ -958,10 +958,10 @@
             ],
             "inStock": false,
             "specifications": {
-                "Dimensions": "430 x 90 x 320 mm",
-                "Weight": "3.5 kg",
-                "Power Consumption": "15W",
-                "Supported Formats": "N/A"
+                "dimensions": "430 x 90 x 320 mm",
+                "weight": "3.5 kg",
+                "power_consumption": "15W",
+                "supported_formats": "N/A"
             }
         }
     ]
