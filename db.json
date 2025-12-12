@@ -74,7 +74,10 @@
             ],
             "category": "CD Players",
             "brand": "Creek",
-            "description": "Creek Classic CD is a high-quality CD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": false,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -96,7 +99,10 @@
             ],
             "category": "CD Players",
             "brand": "Creek",
-            "description": "Creek Destiny CD is a high-quality CD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -118,7 +124,10 @@
             ],
             "category": "CD Players",
             "brand": "Creek",
-            "description": "Creek Evo CD is a high-quality CD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -140,7 +149,10 @@
             ],
             "category": "CD Players",
             "brand": "Creek",
-            "description": "Creek Exp 2010S CD is a high-quality CD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],  
             "inStock": false,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -162,7 +174,10 @@
             ],
             "category": "DVD Players",
             "brand": "Creek",
-            "description": "Creek Classic DVD is a high-quality DVD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -184,7 +199,10 @@
             ],
             "category": "DVD Players",
             "brand": "Exposure",
-            "description": "Exposure 2010S DVD is a high-quality DVD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -206,7 +224,10 @@
             ],
             "category": "DVD Players",
             "brand": "Parasound",
-            "description": "Parasound D200 is a high-quality DVD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": false,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -228,7 +249,10 @@
             ],
             "category": "DVD Players",
             "brand": "Parasound",
-            "description": "Parasound Halo D3 is a high-quality DVD player that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -250,7 +274,10 @@
             ],
             "category": "Effect Amplifiers",
             "brand": "Manley",
-            "description": "Manley Mahi is a high-quality effect amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -272,7 +299,10 @@
             ],
             "category": "Effect Amplifiers",
             "brand": "Manley",
-            "description": "Manley Neoclassic 300B is a high-quality effect amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -294,7 +324,10 @@
             ],
             "category": "Effect Amplifiers",
             "brand": "Manley",
-            "description": "Manley Snapper is a high-quality effect amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -316,7 +349,10 @@
             ],
             "category": "Effect Amplifiers",
             "brand": "Parasound",
-            "description": "Parasound Halo A23 is a high-quality effect amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -338,7 +374,10 @@
             ],
             "category": "Pre Amplifiers",
             "brand": "Creek",
-            "description": "Creek OBH 22 Passive Preamp is a high-quality pre amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -360,7 +399,10 @@
             ],
             "category": "Pre Amplifiers",
             "brand": "Parasound",
-            "description": "Parasound Classic 7100 is a high-quality pre amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -382,7 +424,10 @@
             ],
             "category": "Pre Amplifiers",
             "brand": "Parasound",
-            "description": "Parasound Halo P3 is a high-quality pre amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -404,7 +449,10 @@
             ],
             "category": "Pre Amplifiers",
             "brand": "Project",
-            "description": "Project Prebox is a high-quality pre amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -426,7 +474,10 @@
             ],
             "category": "Speakers",
             "brand": "Bösendorfer",
-            "description": "Bösendorfer VCS Wall is a high-quality speaker that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -448,7 +499,10 @@
             ],
             "category": "Speakers",
             "brand": "Epos",
-            "description": "Epos M5 is a high-quality speaker that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -470,7 +524,10 @@
             ],
             "category": "Speakers",
             "brand": "Harbeth",
-            "description": "Harbeth HL7ES2 is a high-quality speaker that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -492,7 +549,10 @@
             ],
             "category": "Speakers",
             "brand": "Harbeth",
-            "description": "Harbeth Monitor 30 is a high-quality speaker that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -514,7 +574,10 @@
             ],
             "category": "Speakers",
             "brand": "Harbeth",
-            "description": "Harbeth P3ES2 is a high-quality speaker that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -536,7 +599,10 @@
             ],
             "category": "Integrated Amplifiers",
             "brand": "Creek",
-            "description": "Creek A50L is a high-quality integrated amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -558,7 +624,10 @@
             ],
             "category": "Integrated Amplifiers",
             "brand": "Creek",
-            "description": "Creek Classic 5350 SE is a high-quality integrated amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -580,7 +649,10 @@
             ],
             "category": "Integrated Amplifiers",
             "brand": "Creek",
-            "description": "Creek Destiny Amp is a high-quality integrated amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -602,7 +674,10 @@
             ],
             "category": "Integrated Amplifiers",
             "brand": "Manley",
-            "description": "Manley Snapper is a high-quality integrated amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -624,7 +699,10 @@
             ],
             "category": "Integrated Amplifiers",
             "brand": "Manley",
-            "description": "Manley Stingray is a high-quality integrated amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -647,7 +725,10 @@
             ],
             "category": "Turntables",
             "brand": "Pro-Ject",
-            "description": "Pro-Ject Debut 3 is a high-quality turntable that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": false,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -670,7 +751,10 @@
             ],
             "category": "Turntables",
             "brand": "Pro-Ject",
-            "description": "Pro-Ject Debut III is a high-quality turntable that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -693,7 +777,10 @@
             ],
             "category": "Turntables",
             "brand": "Pro-Ject",
-            "description": "Pro-Ject Debut III is a high-quality turntable that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -715,7 +802,10 @@
             ],
             "category": "Turntables",
             "brand": "Pro-Ject",
-            "description": "Pro-Ject RPM 5 is a high-quality turntable that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -737,7 +827,10 @@
             ],
             "category": "Turntables",
             "brand": "Pro-Ject",
-            "description": "Pro-Ject RPM 10 is a high-quality turntable that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -759,7 +852,10 @@
             ],
             "category": "Pre-amplifiers",
             "brand": "Jolida",
-            "description": "Jolida JD102b is a high-quality pre-amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -781,7 +877,10 @@
             ],
             "category": "Pre-amplifiers",
             "brand": "Jolida",
-            "description": "Jolida JD202a is a high-quality pre-amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -803,7 +902,10 @@
             ],
             "category": "Pre-amplifiers",
             "brand": "Jolida",
-            "description": "Jolida JD300b is a high-quality pre-amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -825,7 +927,10 @@
             ],
             "category": "Pre-amplifiers",
             "brand": "Jolida",
-            "description": "Jolida JD302b is a high-quality pre-amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": true,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
@@ -847,7 +952,10 @@
             ],
             "category": "Pre-amplifiers",
             "brand": "Jolida",
-            "description": "Jolida JD502b is a high-quality pre-amplifier that delivers exceptional sound performance with digital coaxial and optical outputs.",
+            "descriptions": [
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            ],
             "inStock": false,
             "specifications": {
                 "Dimensions": "430 x 90 x 320 mm",
