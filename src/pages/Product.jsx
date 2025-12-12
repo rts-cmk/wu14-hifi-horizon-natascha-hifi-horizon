@@ -9,10 +9,10 @@ export default function Product() {
 
     const products = useLoaderData();
     const { id } = useParams();
-    console.log(id);
+    // console.log(id);
     
     const product = products.find(p => p.id == id);
-    console.log(product);
+    // console.log(product);
 
     return (
         <>
