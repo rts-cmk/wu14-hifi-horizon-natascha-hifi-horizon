@@ -1,0 +1,17 @@
+@use '../../style/variables.sass' as var
+@use '../../style/mixins.sass' as mixin
+    
+    
+.compare
+    background-color: var.$box-bg-color
+    padding: 2rem
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 2rem
+
+    &__button
+        @include mixin.button()
+        display: flex
+        justify-content: center
+        gap: 1rem

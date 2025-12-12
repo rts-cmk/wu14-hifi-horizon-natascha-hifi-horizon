@@ -1,0 +1,35 @@
+@use '../../style/variables' as var
+@use '../../style/mixins' as mixin
+
+
+.popular-products
+    padding: 2rem 1rem
+    background-color: var.$primary-bg-color
+
+    &__header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 2rem
+
+    &__title
+        font-size: 24px
+        color: var.$headline-color
+        text-transform: uppercase
+
+    &__button
+        @include mixin.button()
+
+    &__items
+        // display: grid
+        // grid-template-columns: 1fr
+        // grid-template-rows: auto
+        // gap: 2rem
+        display: flex
+        flex-wrap: nowrap
+        overflow-x: auto
+        height: 470px
+        width: 100%
+        padding: 0 0 .5rem
+        // &::-webkit-scrollbar
+            // display: none
