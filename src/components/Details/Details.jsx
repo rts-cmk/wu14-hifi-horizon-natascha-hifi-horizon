@@ -24,6 +24,23 @@ export default function Details() {
     // bool for burger menu active state (set to --active if menu is open)
     const isActive = false;
 
+
+    const [activeIndex, setActiveIndex] = useState(0);
+
+    console.log("Active image:", activeIndex, product.image[activeIndex]);
+
+    const handlePrev = () => {
+        setActiveIndex((prev) =>
+        prev === 0 ? product.image.length - 1 : prev - 1
+        );
+    };
+
+    const handleNext = () => {
+        setActiveIndex((prev) =>
+        prev === product.image.length - 1 ? 0 : prev + 1
+        );
+    };
+
     // const [quantity, setQuantity] = useState(1);
 
     
@@ -37,14 +54,25 @@ export default function Details() {
                 </section>
 
                 <section className="details__overview">
-                    <section className="details__images">
-                        {/* maybe change image in json to be an array?? */}
-                        {/* and add random images */}
-                        <img src={product.image} alt={product.name} />
-                        {/* LOOP THROUGH IMAGES */}
-                        {/* <img src={product.image} alt={product.name} /> */}
-                        {/* <img src={product.image} alt={product.name} /> */}
-                    </section>
+                    
+                    <div className="details__images">
+                        <div className="slider">
+                            <button className="nav prev" onClick={handlePrev}>&#10094;</button>
+                            <div className="images-wrapper" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
+                                {product.image.map((img, index) => (
+                                    <img key={index} src={img} alt={product.name} className="active-image" />
+                                ))}
+                            </div>
+                            <button className="nav next" onClick={handleNext}>&#10095;</button>
+                        </div>
+
+                        <div className="dots">
+                            {product.image.map((_, index) => (
+                                <span key={index} className={index === activeIndex ? "dot active" : "dot"} onClick={() => setActiveIndex(index)} />
+                            ))}
+                        </div>
+                    </div>
+                    
                     <section className="details__info">
                         
                         <section className="details__title">
@@ -95,4 +123,5 @@ export default function Details() {
             <h2>Product not found</h2>
         )
     )
+
 }
