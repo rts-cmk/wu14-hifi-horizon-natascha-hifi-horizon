@@ -1,3 +1,4 @@
+import Delivery from '../Devilery/Delivery';
 import Refunds from '../Refunds/Refunds';
 import Shipping from '../Shipping/Shipping';
 import './FaqDetails.sass';
@@ -22,7 +23,7 @@ export default function FaqDetails() {
 
             <Shipping />
 
-            
+            <Delivery />
 
         </section>
     )
