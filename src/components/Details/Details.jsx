@@ -41,7 +41,7 @@ export default function Details() {
         );
     };
 
-    // const [quantity, setQuantity] = useState(1);
+    const [quantity, setQuantity] = useState(1);
 
     
     return (
@@ -108,12 +108,25 @@ export default function Details() {
                         </section>
                         
                         <section className="details__purchase">
+
                             <div className="details__quantity">
-                                <FaMinus className="details__subtract"/>
-                                <input type="number" id="quantity" name="quantity" min="1" max="10" defaultValue="1" />
-                                <FaPlus className="details__add"/>
+                                {/* subtract button: reduce quantity by 1, but not below 1 */}
+                                <FaMinus className="details__subtract" onClick={() => setQuantity(prev => Math.max(prev - 1, 1))} />
+                                
+                                {/* input fields: show the current quantity and allow only numbers between 1 and 10 */}
+                                <input type="number" id="quantity" name="quantity" min="1" max="10" value={quantity}
+                                onChange={(event) => {
+                                    // Ensures the input value always stays within 1-10, even if the user types manually
+                                    const value = Math.max(1, Math.min(10, Number(event.target.value)));
+                                    setQuantity(value);
+                                }}/>
+                                
+                                {/* Plus button: increases quantity by 1, but stops at 10 to respect the maximum */}
+                                <FaPlus className="details__add" onClick={() => setQuantity(prev => Math.min(prev + 1, 10))} />
                             </div>
+
                             <button className="details__button">Add to cart</button>
+                            
                         </section>
                             
                     </section>
