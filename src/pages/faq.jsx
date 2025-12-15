@@ -1,9 +1,10 @@
 import Header from "../components/Header/Header"
 import Footer from "../components/Footer/Footer"
 import '../style/_layout.sass'
+import FaqDetails from "../components/FaqDetails/FaqDetails"
 
 
-export default function FAQ() {
+export default function Faq() {
 
     return (
         <>
@@ -13,7 +14,7 @@ export default function FAQ() {
 
                 <h1>FAQ</h1>
 
-                
+                <FaqDetails />
 
             </main>
             
