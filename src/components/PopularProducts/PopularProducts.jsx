@@ -8,6 +8,10 @@ export default function PopularProducts() {
     const products = useLoaderData();
     // console.log(products);
 
+    // Get top 4 popular products based on views
+    const popularProducts = products.sort((a, b) => b.views - a.views).slice(0, 4);
+    // console.log(popularProducts);
+
     return (
         <section className="popular-products">
             <section className="popular-products__header">
@@ -18,8 +22,8 @@ export default function PopularProducts() {
             </section>
             
             <section className="popular-products__items">
-                {products && products.length > 0 ? (
-                    products.slice(0, 4).map((product) => (
+                {popularProducts && popularProducts.length > 0 ? (
+                    popularProducts.map((product) => (
                     <ProductItem product={product} key={product.id}>
                         <Link to={`/shop/${product.id}`} className="product-item__button">
                             Read more
