@@ -1,4 +1,5 @@
 import Refunds from '../Refunds/Refunds';
+import Shipping from '../Shipping/Shipping';
 import './FaqDetails.sass';
 
 
@@ -18,6 +19,8 @@ export default function FaqDetails() {
             </article>
 
             <Refunds />
+
+            <Shipping />
 
             
 
