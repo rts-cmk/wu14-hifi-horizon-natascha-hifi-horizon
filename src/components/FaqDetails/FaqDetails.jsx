@@ -1,3 +1,4 @@
+import Refunds from '../Refunds/Refunds';
 import './FaqDetails.sass';
 
 
@@ -16,7 +17,7 @@ export default function FaqDetails() {
                 </section>
             </article>
 
-            
+            <Refunds />
 
             
 
