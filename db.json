@@ -87,48 +87,6 @@
       "subject": "Subject",
       "message": "Message",
       "id": 1
-    },
-    {
-      "name": "Natascha Bjerning",
-      "email": "nannabjerning@hotmail.com",
-      "subject": "Subject",
-      "message": "Lorem ipsum dolor sit amet",
-      "id": 2
-    },
-    {
-      "name": "Nanna Bjerning",
-      "email": "nannabjerning@hotmail.com",
-      "subject": "Subject",
-      "message": "Lorem ipsum dolor sit amet",
-      "id": 3
-    },
-    {
-      "name": "Natascha Bjerning",
-      "email": "nannabjerning@hotmail.com",
-      "subject": "fdsf",
-      "message": "dsf",
-      "id": 4
-    },
-    {
-      "name": "Natascha Bjerning",
-      "email": "nannabjerning@hotmail.com",
-      "subject": "Subjectg",
-      "message": "e",
-      "id": 5
-    },
-    {
-      "name": "Natascha Bjerning",
-      "email": "nannabjerning@hotmail.com",
-      "subject": "Subjectv",
-      "message": "v",
-      "id": 6
-    },
-    {
-      "name": "Natascha Bjerning",
-      "email": "nannabjerning@hotmail.com",
-      "subject": "Subject",
-      "message": "message here",
-      "id": 7
     }
   ],
   "products": [
