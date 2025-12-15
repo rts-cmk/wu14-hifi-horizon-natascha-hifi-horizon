@@ -1,17 +1,8 @@
 {
-    "contact": [
-        {
-            "id": 1,
-            "full_name": "John Doe",
-            "email": "john.doe@example.com",
-            "subject": "Inquiry about product availability",
-            "message": "Hello, I am interested in purchasing the Creek Classic CD player. Could you please let me know if it is currently in stock and available for immediate purchase? Additionally, I would like to inquire about any ongoing promotions or discounts that may apply to this product. Thank you!"
-        }
-    ],
     "histories": [
         {
             "id": 1,
-            "image": "",
+            "image": "http://localhost:3001/historyimages/history.png",
             "title": "History",
             "subtitle": "Established in the late 1960s, our family owned business is based in Edinburgh and Falkirk, but services customers across the UK. ",
             "paragraphs": [
@@ -26,7 +17,7 @@
         },
         {
             "id": 2,
-            "image": "",
+            "image": "http://localhost:3001/historyimages/hear_the_difference.png",
             "title": "Hear The Difference",
             "subtitle": "Book a demonstration at our Edinburgh or Falkirk showrooms.  ",
             "paragraphs": [
@@ -42,7 +33,7 @@
         },
         {
             "id": 3,
-            "image": "",
+            "image": "http://localhost:3001/historyimages/services.png",
             "title": "Services",
             "subtitle": "Our passion for the products we sell and, for our customers’ satisfaction simply means that we happily offer additional services not found on the high-street.",
             "paragraphs": [
@@ -66,7 +57,7 @@
         },
         {
             "id": 4,
-            "image": "",
+            "image": "http://localhost:3001/historyimages/tailored_for_you.png",
             "title": "Tailored For You",
             "subtitle": "We look forward to customising a system to meet your needs. ",
             "paragraphs": [
@@ -79,6 +70,15 @@
                     ]
                 }
             ]
+        }
+    ],
+    "contact": [
+        {
+            "id": 1,
+            "full_name": "John Doe",
+            "email": "john.doe@example.com",
+            "subject": "Inquiry about product availability",
+            "message": "Hello, I am interested in purchasing the Creek Classic CD player. Could you please let me know if it is currently in stock and available for immediate purchase? Additionally, I would like to inquire about any ongoing promotions or discounts that may apply to this product. Thank you!"
         }
     ],
     "products": [
