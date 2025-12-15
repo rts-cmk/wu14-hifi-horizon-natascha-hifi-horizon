@@ -3,11 +3,12 @@ import productsLoader from './loaders/productsLoader';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
+import Faq from './pages/faq';
 import Home from './pages/Home';
 import Product from './pages/Product';
 import Shop from './pages/Shop';
 import './style/_layout.sass'
-import { createBrowserRouter, Router, RouterProvider } from 'react-router'
+import { createBrowserRouter, RouterProvider } from 'react-router'
 
 
 export default function App() {
@@ -40,6 +41,10 @@ export default function App() {
       {
         path: '/contact',
         element: <Contact />
+      },
+      {
+        path: '/faq',
+        element: <Faq />
       },
       {
         path: '*',

@@ -18,6 +18,7 @@ export default function Footer() {
                 <a href="/" className="footer__nav-link">Home</a>
                 <a href="/shop" className="footer__nav-link">Shop</a>
                 <a href="/about" className="footer__nav-link">About Us</a>
+                <a href="/faq" className="footer__nav-link">FAQ</a>
             </nav>
             
             <section className='footer__support'>

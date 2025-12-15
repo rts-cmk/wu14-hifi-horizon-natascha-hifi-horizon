@@ -1,0 +1,50 @@
+@use '../../style/variables.sass' as var
+    
+    
+.history
+    text-align: center
+    margin-bottom: 4rem
+
+    &__image
+        width: 100%
+        margin-bottom: 1rem
+
+    &__title
+        text-transform: capitalize
+
+    &__subtitle
+        margin: .5rem 0 2rem
+        color: var.$button-bg-color
+        font-weight: bold
+
+    // if paragraph has title
+    &__paragraph
+        // set margin on paragraph container
+        margin: 0 0 1rem
+        // set styles for title and text
+        .paragraph-title, .paragraph-text
+            display: inline
+            margin: 0
+        .paragraph-title
+            font-weight: bold
+
+    // if paragraph has no title
+    &__paragraph--no-title
+        // remove margin from paragraph container
+        margin: 0
+        // set styles for text only
+        .paragraph-text
+            display: block
+            margin: 0 0 1rem
+        .paragraph-text:last-of-type
+            margin-bottom: 0
+
+
+.history:last-of-type
+    margin-bottom: 0
+
+
+// .history
+//     display: flex
+// .history:nth-child(even)
+//     flex-direction: row-reverse

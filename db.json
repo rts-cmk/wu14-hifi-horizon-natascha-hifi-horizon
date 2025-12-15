@@ -1,989 +1,997 @@
 {
-    "contact": [
+  "histories": [
+    {
+      "id": 1,
+      "image": "http://localhost:3001/historyimages/history.png",
+      "title": "History",
+      "subtitle": "Established in the late 1960s, our family owned business is based in Edinburgh and Falkirk, but services customers across the UK. ",
+      "paragraphs": [
         {
-            "id": 1,
-            "full_name": "John Doe",
-            "email": "john.doe@example.com",
-            "subject": "Inquiry about product availability",
-            "message": "Hello, I am interested in purchasing the Creek Classic CD player. Could you please let me know if it is currently in stock and available for immediate purchase? Additionally, I would like to inquire about any ongoing promotions or discounts that may apply to this product. Thank you!"
+          "title": "",
+          "text": [
+            "Our Edinburgh branch has the longest history as an audio retailer in the UK. During recent renovations, receipts were found from Nicolson’s Gramophone Saloon dating back to 1926. In the 1950s WG Graham took over the shop and renamed it WG Graham’s HiFi Corner. Upon his retirement, Graham Tiso bought the business and modernized the name to HiFi Horizon.  ",
+            "Soon thereafter a young enthusiastic Colin MacKenzie (left), who was recommended by Linn’s own Ivor Tiefenbrun, was employed to manage the shop; with a knack for business and years of experience in the hi-fi industry, Colin would later become the owner of HiFi Horizon. Today, Struan MacKenzie carries on the legacy as the company’s Managing Director."
+          ]
         }
-    ],
-    "histories": [
+      ]
+    },
+    {
+      "id": 2,
+      "image": "http://localhost:3001/historyimages/hear_the_difference.png",
+      "title": "Hear The Difference",
+      "subtitle": "Book a demonstration at our Edinburgh or Falkirk showrooms.  ",
+      "paragraphs": [
         {
-            "id": 1,
-            "image": "",
-            "title": "History",
-            "subtitle": "Established in the late 1960s, our family owned business is based in Edinburgh and Falkirk, but services customers across the UK. ",
-            "paragraphs": [
-                {
-                    "title": "",
-                    "text": [
-                        "Our Edinburgh branch has the longest history as an audio retailer in the UK. During recent renovations, receipts were found from Nicolson’s Gramophone Saloon dating back to 1926. In the 1950s WG Graham took over the shop and renamed it WG Graham’s HiFi Corner. Upon his retirement, Graham Tiso bought the business and modernized the name to HiFi Horizon.  ",
-                        "Soon thereafter a young enthusiastic Colin MacKenzie (left), who was recommended by Linn’s own Ivor Tiefenbrun, was employed to manage the shop; with a knack for business and years of experience in the hi-fi industry, Colin would later become the owner of HiFi Horizon. Today, Struan MacKenzie carries on the legacy as the company’s Managing Director."
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "image": "",
-            "title": "Hear The Difference",
-            "subtitle": "Book a demonstration at our Edinburgh or Falkirk showrooms.  ",
-            "paragraphs": [
-                {
-                    "title": "",
-                    "text": [
-                        "Would you choose a quality car without a test drive? If you are familiar with the brand and have great trust in it, you might. However, our listening preferences are unique to the individual and with many of our customers new to the world of high quality sound and vision, we encourage everyone to come in to demonstrate the products they are interested in. You’ll find a relaxing and comfortable environment in both our Edinburgh and Falkirk premises where you can decide for yourself if the kit is right for you. We also offer home demonstrations on selected products.",
-                        "It's our aim to get the right product for you.",
-                        "Our experts are on hand to guide you through the differences between speakers, amplifiers and sources and provide simple solutions that suit your needs."
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "image": "",
-            "title": "Services",
-            "subtitle": "Our passion for the products we sell and, for our customers’ satisfaction simply means that we happily offer additional services not found on the high-street.",
-            "paragraphs": [
-                {
-                    "title": "Home Setup",
-                    "text": ["We want to ensure that the equipment you’ve purchased from us is installed correctly and sounds perfect; and we happily provide this service throughout the UK"]
-                },
-                {
-                    "title": "Part Exchange",
-                    "text": ["To help you upgrade your system, we offer our part-exchange program. We can offer a set price, or sell your old kit on your behalf."]
-                },
-                {
-                    "title": "Turntable Doctor",
-                    "text": ["Our turntable experts have been trained by the manufacturers for initial setup, long-term maintenance, and upgrading your high quality turntables."]
-                },
-                {
-                    "title": "Record Cleaning Service",
-                    "text": ["Have some old records that need a bit of love? We offer Scotland’s very own professional record cleaning service with our bespoke Pro-Ject record cleaner."]   
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "image": "",
-            "title": "Tailored For You",
-            "subtitle": "We look forward to customising a system to meet your needs. ",
-            "paragraphs": [
-                {
-                    "title": "",
-                    "text": [
-                        "We don’t favour one manufacturer over another – the only thing we do favour is making sure our customers get the right product that suits their needs and listening preferences. We will ask many questions in order to ensure that what you buy from us is tailored to you and you alone. ",
-                        "If you are looking for a product not found in our demonstration showrooms or our online site, don’t fret as we have access to hundreds of brands.",
-                        "One of our biggest pleasures of working in this industry is to see the smile on our customers’ faces when they finally hear and see the system of their dreams.   "
-                    ]
-                }
-            ]
+          "title": "",
+          "text": [
+            "Would you choose a quality car without a test drive? If you are familiar with the brand and have great trust in it, you might. However, our listening preferences are unique to the individual and with many of our customers new to the world of high quality sound and vision, we encourage everyone to come in to demonstrate the products they are interested in. You’ll find a relaxing and comfortable environment in both our Edinburgh and Falkirk premises where you can decide for yourself if the kit is right for you. We also offer home demonstrations on selected products.",
+            "It's our aim to get the right product for you.",
+            "Our experts are on hand to guide you through the differences between speakers, amplifiers and sources and provide simple solutions that suit your needs."
+          ]
         }
-    ],
-    "products": [
+      ]
+    },
+    {
+      "id": 3,
+      "image": "http://localhost:3001/historyimages/services.png",
+      "title": "Services",
+      "subtitle": "Our passion for the products we sell and, for our customers’ satisfaction simply means that we happily offer additional services not found on the high-street.",
+      "paragraphs": [
         {
-            "id": 1,
-            "views": 150,
-            "image": "http://localhost:3001/productimages/cd_afspillere/creek_classic_cd.jpg",
-            "name": "Creek Classic CD",
-            "output": "Digital coaxial and optical",
-            "price": "2,999.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "CD Players",
-            "brand": "Creek",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": false,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "CD, CD-R, CD-RW"
-            }
+          "title": "Home Setup",
+          "text": [
+            "We want to ensure that the equipment you’ve purchased from us is installed correctly and sounds perfect; and we happily provide this service throughout the UK"
+          ]
         },
         {
-            "id": 2,
-            "views": 152,
-            "image": "http://localhost:3001/productimages/cd_afspillere/creek_Destiny_CD.jpg",
-            "name": "Creek Destiny CD",
-            "output": "Digital coaxial and optical",
-            "price": "2,599.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "CD Players",
-            "brand": "Creek",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "CD, CD-R, CD-RW"
-            }
+          "title": "Part Exchange",
+          "text": [
+            "To help you upgrade your system, we offer our part-exchange program. We can offer a set price, or sell your old kit on your behalf."
+          ]
         },
         {
-            "id": 3,
-            "views": 134,
-            "image": "http://localhost:3001/productimages/cd_afspillere/creek_evo_cd.jpg",
-            "name": "Creek Evo CD",
-            "output": "Digital coaxial and optical",
-            "price": "3,499.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "CD Players",
-            "brand": "Creek",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "CD, CD-R, CD-RW"
-            }
+          "title": "Turntable Doctor",
+          "text": [
+            "Our turntable experts have been trained by the manufacturers for initial setup, long-term maintenance, and upgrading your high quality turntables."
+          ]
         },
         {
-            "id": 4,
-            "views": 123,
-            "image": "http://localhost:3001/productimages/cd_afspillere/Exp_2010S_CD.gif",
-            "name": "Creek Exp 2010S CD",
-            "output": "Digital coaxial and optical",
-            "price": "1,499.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "CD Players",
-            "brand": "Creek",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],  
-            "inStock": false,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "CD, CD-R, CD-RW"
-            }
-        },
-        {
-            "id": 5,
-            "views": 145,
-            "image": "http://localhost:3001/productimages/dvdafspillere/creek_classic.jpg",
-            "name": "Creek Classic DVD",
-            "output": "Digital coaxial and optical",
-            "price": "2,399.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "DVD Players",
-            "brand": "Creek",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
-            }
-        },
-        {
-            "id": 6,
-            "views": 145,
-            "image": "http://localhost:3001/productimages/dvdafspillere/exposure_2010S.jpg",
-            "name": "Exposure 2010S DVD",
-            "output": "Digital coaxial and optical",
-            "price": "1,299.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "DVD Players",
-            "brand": "Exposure",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
-            }
-        },
-        {
-            "id": 7,
-            "views": 190,
-            "image": "http://localhost:3001/productimages/dvdafspillere/parasound_d200.jpg",
-            "name": "Parasound D200",
-            "output": "Digital coaxial and optical",
-            "price": "2,999.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "DVD Players",
-            "brand": "Parasound",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": false,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
-            }
-        },
-        {
-            "id": 8,
-            "views": 179,
-            "image": "http://localhost:3001/productimages/dvdafspillere/parasound_halod3.jpg",
-            "name": "Parasound Halo D3",
-            "output": "Digital coaxial and optical",
-            "price": "2,799.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "DVD Players",
-            "brand": "Parasound",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
-            }
-        },
-        {
-            "id": 9,
-            "views": 179,
-            "image": "http://localhost:3001/productimages/effektforstaerkere/manley_mahi.jpg",
-            "name": "Manley Mahi",
-            "output": "Digital coaxial and optical",
-            "price": "4,999.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Effect Amplifiers",
-            "brand": "Manley",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 10,
-            "views": 168,
-            "image": "http://localhost:3001/productimages/effektforstaerkere/manley_neoclassic300b.jpg",
-            "name": "Manley Neoclassic 300B",
-            "output": "Digital coaxial and optical",
-            "price": "4,799.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Effect Amplifiers",
-            "brand": "Manley",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 11,
-            "views": 175,
-            "image": "http://localhost:3001/productimages/effektforstaerkere/manley_snapper.jpg",
-            "name": "Manley Snapper",
-            "output": "Digital coaxial and optical",
-            "price": "2,399.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Effect Amplifiers",
-            "brand": "Manley",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 12,
-            "views": 154,
-            "image": "http://localhost:3001/productimages/effektforstaerkere/parasound_haloa23.jpg",
-            "name": "Parasound Halo A23",
-            "output": "Digital coaxial and optical",
-            "price": "3,899.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Effect Amplifiers",
-            "brand": "Parasound",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 13,
-            "views": 145,
-            "image": "http://localhost:3001/productimages/forforstaerkere/creek_OBH_22_Passive_Preamp.jpg",
-            "name": "Creek OBH 22 Passive Preamp",
-            "output": "Digital coaxial and optical",
-            "price": "1,499.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Pre Amplifiers",
-            "brand": "Creek",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 14,
-            "views": 146,
-            "image": "http://localhost:3001/productimages/forforstaerkere/parasound_classic7100.jpg",
-            "name": "Parasound Classic 7100",
-            "output": "Digital coaxial and optical",
-            "price": "2,999.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Pre Amplifiers",
-            "brand": "Parasound",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 15,
-            "views": 132,
-            "image": "http://localhost:3001/productimages/forforstaerkere/parasound_halop3.jpg",
-            "name": "Parasound Halo P3",
-            "output": "Digital coaxial and optical",
-            "price": "4,999.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Pre Amplifiers",
-            "brand": "Parasound",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 16,
-            "views": 180,
-            "image": "http://localhost:3001/productimages/forforstaerkere/Project_prebox.jpg",
-            "name": "Project Prebox",
-            "output": "Digital coaxial and optical",
-            "price": "2,299.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Pre Amplifiers",
-            "brand": "Project",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 17,
-            "views": 159,
-            "image": "http://localhost:3001/productimages/hojtalere/boesendorfer_vcs_wall.gif",
-            "name": "Bösendorfer VCS Wall",
-            "output": "Digital coaxial and optical",
-            "price": "4,499.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Speakers",
-            "brand": "Bösendorfer",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 18,
-            "views": 193,
-            "image": "http://localhost:3001/productimages/hojtalere/epos_m5.gif",
-            "name": "Epos M5",
-            "output": "Digital coaxial and optical",
-            "price": "3,899.00",
-            "colors": [ 
-                "Black",
-                "Silver"
-            ],
-            "category": "Speakers",
-            "brand": "Epos",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 19,
-            "views": 123,
-            "image": "http://localhost:3001/productimages/hojtalere/harbeth_hl7es2.jpg",
-            "name": "Harbeth HL7ES2",
-            "output": "Digital coaxial and optical",
-            "price": "2,799.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Speakers",
-            "brand": "Harbeth",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 20,
-            "views": 294,
-            "image": "http://localhost:3001/productimages/hojtalere/harbeth_monitor30.jpg",
-            "name": "Harbeth Monitor 30",
-            "output": "Digital coaxial and optical",
-            "price": "4,999.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Speakers",
-            "brand": "Harbeth",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 21,
-            "views": 112,
-            "image": "http://localhost:3001/productimages/hojtalere/harbeth_p3es2.jpg",
-            "name": "Harbeth P3ES2",
-            "output": "Digital coaxial and optical",
-            "price": "2,999.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Speakers",
-            "brand": "Harbeth",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 22,
-            "views": 123,
-            "image": "http://localhost:3001/productimages/int_forstaerkere/creek_a50i.jpg",
-            "name": "Creek A50L",
-            "output": "Digital coaxial and optical",
-            "price": "1,999.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Integrated Amplifiers",
-            "brand": "Creek",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 23,
-            "views": 165,
-            "image": "http://localhost:3001/productimages/int_forstaerkere/creek_classic5350SE.jpg",
-            "name": "Creek Classic 5350 SE",
-            "output": "Digital coaxial and optical",
-            "price": "2,699.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Integrated Amplifiers",
-            "brand": "Creek",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 24,
-            "views": 123,
-            "image": "http://localhost:3001/productimages/int_forstaerkere/creek_destinyamp.jpg",
-            "name": "Creek Destiny Amp",
-            "output": "Digital coaxial and optical",
-            "price": "2,299.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Integrated Amplifiers",
-            "brand": "Creek",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 25,
-            "views": 136,
-            "image": "http://localhost:3001/productimages/int_forstaerkere/manley_snapper.jpg",
-            "name": "Manley Snapper",
-            "output": "Digital coaxial and optical",
-            "price": "4,999.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Integrated Amplifiers",
-            "brand": "Manley",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 26,
-            "views": 123,
-            "image": "http://localhost:3001/productimages/int_forstaerkere/Manley_Stingray.jpg",
-            "name": "Manley Stingray",
-            "output": "Digital coaxial and optical",
-            "price": "3,799.00",
-            "colors": [
-                "Black",
-                "Silver"
-            ],
-            "category": "Integrated Amplifiers",
-            "brand": "Manley",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 27,
-            "views": 145,
-            "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_Debut_3_bl.jpg",
-            "name": "Pro-Ject Debut 3",
-            "output": "Digital coaxial and optical",
-            "price": "1,899.00",
-            "colors": [
-                "Blue",
-                "Red",
-                "Yellow"
-            ],
-            "category": "Turntables",
-            "brand": "Pro-Ject",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": false,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 28,
-            "views": 167,
-            "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_Debut_III_red_1.jpg",
-            "name": "Pro-Ject Debut III",
-            "output": "Digital coaxial and optical",
-            "price": "2,299.00",
-            "colors": [
-                "Blue",
-                "Red",
-                "Yellow"
-            ],
-            "category": "Turntables",
-            "brand": "Pro-Ject",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 29,
-            "views": 189,
-            "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
-            "name": "Pro-Ject Debut III",
-            "output": "Digital coaxial and optical",
-            "price": "1,499.00",
-            "colors": [
-                "Blue",
-                "Red",
-                "Yellow"
-            ],
-            "category": "Turntables",
-            "brand": "Pro-Ject",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 30,
-            "views": 175,
-            "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_rpm_5.jpg",
-            "name": "Pro-Ject RPM 5",
-            "output": "Digital coaxial and optical",
-            "price": "2,999.00",
-            "colors": [
-                "Black",
-                "Red"
-            ],
-            "category": "Turntables",
-            "brand": "Pro-Ject",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 31,
-            "views": 198,
-            "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_rpm10.jpg",
-            "name": "Pro-Ject RPM 10",
-            "output": "Digital coaxial and optical",
-            "price": "2,999.00",
-            "colors": [
-                "Black",
-                "Red"
-            ],
-            "category": "Turntables",
-            "brand": "Pro-Ject",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 32,
-            "views": 176,
-            "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD102b.jpg",
-            "name": "Jolida JD102b",
-            "output": "Digital coaxial and optical",
-            "price": "4,699.00",
-            "colors": [
-                "Black",
-                "Red"
-            ],
-            "category": "Pre-amplifiers",
-            "brand": "Jolida",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 33,
-            "views": 154,
-            "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD202a.jpg",
-            "name": "Jolida JD202a",
-            "output": "Digital coaxial and optical",
-            "price": "2,999.00",
-            "colors": [
-                "Black",
-                "Red"
-            ],
-            "category": "Pre-amplifiers",
-            "brand": "Jolida",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 34,
-            "views": 167,
-            "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD300b.jpg",
-            "name": "Jolida JD300b",
-            "output": "Digital coaxial and optical",
-            "price": "1,799.00",
-            "colors": [
-                "Black",
-                "Red"
-            ],
-            "category": "Pre-amplifiers",
-            "brand": "Jolida",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 35,
-            "views": 189,
-            "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD302b.jpg",
-            "name": "Jolida JD302b",
-            "output": "Digital coaxial and optical",
-            "price": "2,599.00",
-            "colors": [
-                "Black",
-                "Red"
-            ],
-            "category": "Pre-amplifiers",
-            "brand": "Jolida",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": true,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
-        },
-        {
-            "id": 36,
-            "views": 172,
-            "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD502b.jpg",
-            "name": "Jolida JD502b",
-            "output": "Digital coaxial and optical",
-            "price": "3,999.00",
-            "colors": [
-                "Black",
-                "Red"
-            ],
-            "category": "Pre-amplifiers",
-            "brand": "Jolida",
-            "descriptions": [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "inStock": false,
-            "specifications": {
-                "dimensions": "430 x 90 x 320 mm",
-                "weight": "3.5 kg",
-                "power_consumption": "15W",
-                "supported_formats": "N/A"
-            }
+          "title": "Record Cleaning Service",
+          "text": [
+            "Have some old records that need a bit of love? We offer Scotland’s very own professional record cleaning service with our bespoke Pro-Ject record cleaner."
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "id": 4,
+      "image": "http://localhost:3001/historyimages/tailored_for_you.png",
+      "title": "Tailored For You",
+      "subtitle": "We look forward to customising a system to meet your needs. ",
+      "paragraphs": [
+        {
+          "title": "",
+          "text": [
+            "We don’t favour one manufacturer over another – the only thing we do favour is making sure our customers get the right product that suits their needs and listening preferences. We will ask many questions in order to ensure that what you buy from us is tailored to you and you alone. ",
+            "If you are looking for a product not found in our demonstration showrooms or our online site, don’t fret as we have access to hundreds of brands.",
+            "One of our biggest pleasures of working in this industry is to see the smile on our customers’ faces when they finally hear and see the system of their dreams.   "
+          ]
+        }
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "name": "Natascha Bjerning",
+      "email": "nannabjerning@hotmail.com",
+      "subject": "Subject",
+      "message": "Message",
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "views": 150,
+      "image": "http://localhost:3001/productimages/cd_afspillere/creek_classic_cd.jpg",
+      "name": "Creek Classic CD",
+      "output": "Digital coaxial and optical",
+      "price": "2,999.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "CD Players",
+      "brand": "Creek",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": false,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "CD, CD-R, CD-RW"
+      }
+    },
+    {
+      "id": 2,
+      "views": 152,
+      "image": "http://localhost:3001/productimages/cd_afspillere/creek_Destiny_CD.jpg",
+      "name": "Creek Destiny CD",
+      "output": "Digital coaxial and optical",
+      "price": "2,599.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "CD Players",
+      "brand": "Creek",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "CD, CD-R, CD-RW"
+      }
+    },
+    {
+      "id": 3,
+      "views": 134,
+      "image": "http://localhost:3001/productimages/cd_afspillere/creek_evo_cd.jpg",
+      "name": "Creek Evo CD",
+      "output": "Digital coaxial and optical",
+      "price": "3,499.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "CD Players",
+      "brand": "Creek",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "CD, CD-R, CD-RW"
+      }
+    },
+    {
+      "id": 4,
+      "views": 123,
+      "image": "http://localhost:3001/productimages/cd_afspillere/Exp_2010S_CD.gif",
+      "name": "Creek Exp 2010S CD",
+      "output": "Digital coaxial and optical",
+      "price": "1,499.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "CD Players",
+      "brand": "Creek",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": false,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "CD, CD-R, CD-RW"
+      }
+    },
+    {
+      "id": 5,
+      "views": 145,
+      "image": "http://localhost:3001/productimages/dvdafspillere/creek_classic.jpg",
+      "name": "Creek Classic DVD",
+      "output": "Digital coaxial and optical",
+      "price": "2,399.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "DVD Players",
+      "brand": "Creek",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
+      }
+    },
+    {
+      "id": 6,
+      "views": 145,
+      "image": "http://localhost:3001/productimages/dvdafspillere/exposure_2010S.jpg",
+      "name": "Exposure 2010S DVD",
+      "output": "Digital coaxial and optical",
+      "price": "1,299.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "DVD Players",
+      "brand": "Exposure",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
+      }
+    },
+    {
+      "id": 7,
+      "views": 190,
+      "image": "http://localhost:3001/productimages/dvdafspillere/parasound_d200.jpg",
+      "name": "Parasound D200",
+      "output": "Digital coaxial and optical",
+      "price": "2,999.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "DVD Players",
+      "brand": "Parasound",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": false,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
+      }
+    },
+    {
+      "id": 8,
+      "views": 179,
+      "image": "http://localhost:3001/productimages/dvdafspillere/parasound_halod3.jpg",
+      "name": "Parasound Halo D3",
+      "output": "Digital coaxial and optical",
+      "price": "2,799.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "DVD Players",
+      "brand": "Parasound",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "DVD, DVD-R, DVD-RW, CD, CD-R, CD-RW"
+      }
+    },
+    {
+      "id": 9,
+      "views": 179,
+      "image": "http://localhost:3001/productimages/effektforstaerkere/manley_mahi.jpg",
+      "name": "Manley Mahi",
+      "output": "Digital coaxial and optical",
+      "price": "4,999.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Effect Amplifiers",
+      "brand": "Manley",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 10,
+      "views": 168,
+      "image": "http://localhost:3001/productimages/effektforstaerkere/manley_neoclassic300b.jpg",
+      "name": "Manley Neoclassic 300B",
+      "output": "Digital coaxial and optical",
+      "price": "4,799.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Effect Amplifiers",
+      "brand": "Manley",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 11,
+      "views": 175,
+      "image": "http://localhost:3001/productimages/effektforstaerkere/manley_snapper.jpg",
+      "name": "Manley Snapper",
+      "output": "Digital coaxial and optical",
+      "price": "2,399.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Effect Amplifiers",
+      "brand": "Manley",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 12,
+      "views": 154,
+      "image": "http://localhost:3001/productimages/effektforstaerkere/parasound_haloa23.jpg",
+      "name": "Parasound Halo A23",
+      "output": "Digital coaxial and optical",
+      "price": "3,899.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Effect Amplifiers",
+      "brand": "Parasound",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 13,
+      "views": 145,
+      "image": "http://localhost:3001/productimages/forforstaerkere/creek_OBH_22_Passive_Preamp.jpg",
+      "name": "Creek OBH 22 Passive Preamp",
+      "output": "Digital coaxial and optical",
+      "price": "1,499.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Pre Amplifiers",
+      "brand": "Creek",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 14,
+      "views": 146,
+      "image": "http://localhost:3001/productimages/forforstaerkere/parasound_classic7100.jpg",
+      "name": "Parasound Classic 7100",
+      "output": "Digital coaxial and optical",
+      "price": "2,999.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Pre Amplifiers",
+      "brand": "Parasound",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 15,
+      "views": 132,
+      "image": "http://localhost:3001/productimages/forforstaerkere/parasound_halop3.jpg",
+      "name": "Parasound Halo P3",
+      "output": "Digital coaxial and optical",
+      "price": "4,999.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Pre Amplifiers",
+      "brand": "Parasound",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 16,
+      "views": 180,
+      "image": "http://localhost:3001/productimages/forforstaerkere/Project_prebox.jpg",
+      "name": "Project Prebox",
+      "output": "Digital coaxial and optical",
+      "price": "2,299.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Pre Amplifiers",
+      "brand": "Project",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 17,
+      "views": 159,
+      "image": "http://localhost:3001/productimages/hojtalere/boesendorfer_vcs_wall.gif",
+      "name": "Bösendorfer VCS Wall",
+      "output": "Digital coaxial and optical",
+      "price": "4,499.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Speakers",
+      "brand": "Bösendorfer",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 18,
+      "views": 193,
+      "image": "http://localhost:3001/productimages/hojtalere/epos_m5.gif",
+      "name": "Epos M5",
+      "output": "Digital coaxial and optical",
+      "price": "3,899.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Speakers",
+      "brand": "Epos",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 19,
+      "views": 123,
+      "image": "http://localhost:3001/productimages/hojtalere/harbeth_hl7es2.jpg",
+      "name": "Harbeth HL7ES2",
+      "output": "Digital coaxial and optical",
+      "price": "2,799.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Speakers",
+      "brand": "Harbeth",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 20,
+      "views": 294,
+      "image": "http://localhost:3001/productimages/hojtalere/harbeth_monitor30.jpg",
+      "name": "Harbeth Monitor 30",
+      "output": "Digital coaxial and optical",
+      "price": "4,999.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Speakers",
+      "brand": "Harbeth",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 21,
+      "views": 112,
+      "image": "http://localhost:3001/productimages/hojtalere/harbeth_p3es2.jpg",
+      "name": "Harbeth P3ES2",
+      "output": "Digital coaxial and optical",
+      "price": "2,999.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Speakers",
+      "brand": "Harbeth",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 22,
+      "views": 123,
+      "image": "http://localhost:3001/productimages/int_forstaerkere/creek_a50i.jpg",
+      "name": "Creek A50L",
+      "output": "Digital coaxial and optical",
+      "price": "1,999.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Integrated Amplifiers",
+      "brand": "Creek",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 23,
+      "views": 165,
+      "image": "http://localhost:3001/productimages/int_forstaerkere/creek_classic5350SE.jpg",
+      "name": "Creek Classic 5350 SE",
+      "output": "Digital coaxial and optical",
+      "price": "2,699.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Integrated Amplifiers",
+      "brand": "Creek",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 24,
+      "views": 123,
+      "image": "http://localhost:3001/productimages/int_forstaerkere/creek_destinyamp.jpg",
+      "name": "Creek Destiny Amp",
+      "output": "Digital coaxial and optical",
+      "price": "2,299.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Integrated Amplifiers",
+      "brand": "Creek",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 25,
+      "views": 136,
+      "image": "http://localhost:3001/productimages/int_forstaerkere/manley_snapper.jpg",
+      "name": "Manley Snapper",
+      "output": "Digital coaxial and optical",
+      "price": "4,999.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Integrated Amplifiers",
+      "brand": "Manley",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 26,
+      "views": 123,
+      "image": "http://localhost:3001/productimages/int_forstaerkere/Manley_Stingray.jpg",
+      "name": "Manley Stingray",
+      "output": "Digital coaxial and optical",
+      "price": "3,799.00",
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "category": "Integrated Amplifiers",
+      "brand": "Manley",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 27,
+      "views": 145,
+      "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_Debut_3_bl.jpg",
+      "name": "Pro-Ject Debut 3",
+      "output": "Digital coaxial and optical",
+      "price": "1,899.00",
+      "colors": [
+        "Blue",
+        "Red",
+        "Yellow"
+      ],
+      "category": "Turntables",
+      "brand": "Pro-Ject",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": false,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 28,
+      "views": 167,
+      "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_Debut_III_red_1.jpg",
+      "name": "Pro-Ject Debut III",
+      "output": "Digital coaxial and optical",
+      "price": "2,299.00",
+      "colors": [
+        "Blue",
+        "Red",
+        "Yellow"
+      ],
+      "category": "Turntables",
+      "brand": "Pro-Ject",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 29,
+      "views": 189,
+      "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
+      "name": "Pro-Ject Debut III",
+      "output": "Digital coaxial and optical",
+      "price": "1,499.00",
+      "colors": [
+        "Blue",
+        "Red",
+        "Yellow"
+      ],
+      "category": "Turntables",
+      "brand": "Pro-Ject",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 30,
+      "views": 175,
+      "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_rpm_5.jpg",
+      "name": "Pro-Ject RPM 5",
+      "output": "Digital coaxial and optical",
+      "price": "2,999.00",
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "category": "Turntables",
+      "brand": "Pro-Ject",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 31,
+      "views": 198,
+      "image": "http://localhost:3001/productimages/pladespillere/Pro_ject_rpm10.jpg",
+      "name": "Pro-Ject RPM 10",
+      "output": "Digital coaxial and optical",
+      "price": "2,999.00",
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "category": "Turntables",
+      "brand": "Pro-Ject",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 32,
+      "views": 176,
+      "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD102b.jpg",
+      "name": "Jolida JD102b",
+      "output": "Digital coaxial and optical",
+      "price": "4,699.00",
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "category": "Pre-amplifiers",
+      "brand": "Jolida",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 33,
+      "views": 154,
+      "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD202a.jpg",
+      "name": "Jolida JD202a",
+      "output": "Digital coaxial and optical",
+      "price": "2,999.00",
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "category": "Pre-amplifiers",
+      "brand": "Jolida",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 34,
+      "views": 167,
+      "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD300b.jpg",
+      "name": "Jolida JD300b",
+      "output": "Digital coaxial and optical",
+      "price": "1,799.00",
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "category": "Pre-amplifiers",
+      "brand": "Jolida",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 35,
+      "views": 189,
+      "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD302b.jpg",
+      "name": "Jolida JD302b",
+      "output": "Digital coaxial and optical",
+      "price": "2,599.00",
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "category": "Pre-amplifiers",
+      "brand": "Jolida",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": true,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    },
+    {
+      "id": 36,
+      "views": 172,
+      "image": "http://localhost:3001/productimages/roer_forstaerkere/jolida_JD502b.jpg",
+      "name": "Jolida JD502b",
+      "output": "Digital coaxial and optical",
+      "price": "3,999.00",
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "category": "Pre-amplifiers",
+      "brand": "Jolida",
+      "descriptions": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ],
+      "inStock": false,
+      "specifications": {
+        "dimensions": "430 x 90 x 320 mm",
+        "weight": "3.5 kg",
+        "power_consumption": "15W",
+        "supported_formats": "N/A"
+      }
+    }
+  ]
 }
