@@ -1,4 +1,5 @@
 import Delivery from '../Devilery/Delivery';
+import Exchanges from '../Exchanges/Exchanges';
 import Refunds from '../Refunds/Refunds';
 import Returns from '../Returns/Returns';
 import SaleItems from '../SaleItems/SaleItems';
@@ -30,6 +31,8 @@ export default function FaqDetails() {
             <Returns />
 
             <SaleItems />
+
+            <Exchanges />
 
         </section>
     )
