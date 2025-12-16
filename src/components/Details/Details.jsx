@@ -8,12 +8,7 @@ import './Details.sass';
 
 export default function Details() {
 
-    const products = useLoaderData();
-    const { id } = useParams();
-    // console.log(id);
-    
-    const product = products.find(p => p.id == id);
-    // console.log(product);
+    const product = useLoaderData();
 
     const selectedColor = (event) => {
         const allColors = document.querySelectorAll('.details__color-span--active');
@@ -24,11 +19,10 @@ export default function Details() {
     // bool for burger menu active state (set to --active if menu is open)
     const isActive = false;
 
-
+    // Image slider
     const [activeIndex, setActiveIndex] = useState(0);
 
-    console.log("Active image:", activeIndex, product.image[activeIndex]);
-
+    // handle previous and next buttons
     const handlePrev = () => {
         setActiveIndex((prev) =>
         prev === 0 ? product.image.length - 1 : prev - 1
@@ -41,6 +35,7 @@ export default function Details() {
         );
     };
 
+    // Quantity state
     const [quantity, setQuantity] = useState(1);
 
     

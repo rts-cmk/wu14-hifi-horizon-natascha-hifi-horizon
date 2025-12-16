@@ -4,13 +4,7 @@ import './Specifications.sass';
 
 export default function Specifications() {
 
-    const products = useLoaderData();
-    const { id } = useParams();
-    // console.log(id);
-    
-    const product = products.find(p => p.id == id);
-    // console.log(product);
-    
+    const product = useLoaderData();
 
     return (
         <section className="specifications">
