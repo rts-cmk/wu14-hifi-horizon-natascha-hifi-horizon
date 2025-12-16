@@ -30,7 +30,7 @@ export default function ContactForm() {
             "message": formData.get("message")
         };
 
-        fetch("http://localhost:3001/contact", {
+        fetch("https://natascha-hifi-horizon.onrender.com/contact", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
