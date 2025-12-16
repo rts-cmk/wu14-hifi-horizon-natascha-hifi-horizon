@@ -1,6 +1,8 @@
-import { useLoaderData, useParams } from "react-router";
+import { useLoaderData } from "react-router";
 import { useState } from "react";
 import { FiSliders } from "react-icons/fi";
+import { FaAngleLeft } from "react-icons/fa6";
+import { FaAngleRight } from "react-icons/fa6";
 import { FaMinus } from "react-icons/fa6";
 import { FaPlus } from "react-icons/fa6";
 import './Details.sass';
@@ -19,19 +21,17 @@ export default function Details() {
     // bool for burger menu active state (set to --active if menu is open)
     const isActive = false;
 
-    // Image slider
-    const [activeIndex, setActiveIndex] = useState(0);
+    const [current, setCurrent] = useState(0);
 
-    // handle previous and next buttons
-    const handlePrev = () => {
-        setActiveIndex((prev) =>
-        prev === 0 ? product.image.length - 1 : prev - 1
+    const prevImage = () => {
+        setCurrent((prev) =>
+            prev === 0 ? product.image.length - 1 : prev - 1
         );
     };
 
-    const handleNext = () => {
-        setActiveIndex((prev) =>
-        prev === product.image.length - 1 ? 0 : prev + 1
+    const nextImage = () => {
+        setCurrent((prev) =>
+            prev === product.image.length - 1 ? 0 : prev + 1
         );
     };
 
@@ -49,24 +49,30 @@ export default function Details() {
                 </section>
 
                 <section className="details__overview">
-                    
-                    <div className="details__images">
-                        <div className="slider">
-                            <button className="nav prev" onClick={handlePrev}>&#10094;</button>
-                            <div className="images-wrapper" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
+
+                    {/* slider for images */}
+                    <section className="details__images-slider">
+                        <button className="slider__btn slider__btn--left" onClick={prevImage}><FaAngleLeft /></button>
+
+                        {/* container to hold all images */}
+                        <section className="details__images">
+                            {/* track for making the sliding effect */}
+                            <div className="details__images-track" style={{ transform: `translateX(-${current * 100}%)` }}>
                                 {product.image.map((img, index) => (
-                                    <img key={index} src={img} alt={product.name} className="active-image" />
+                                    <img key={index} src={img} alt={product.name} className="image"/>
                                 ))}
                             </div>
-                            <button className="nav next" onClick={handleNext}>&#10095;</button>
-                        </div>
+                        </section>
 
-                        <div className="dots">
+                        <button className="slider__btn slider__btn--right" onClick={nextImage}><FaAngleRight /></button>
+                        
+                        {/* slider dots */}
+                        <section className="slider__dots">
                             {product.image.map((_, index) => (
-                                <span key={index} className={index === activeIndex ? "dot active" : "dot"} onClick={() => setActiveIndex(index)} />
+                                <button key={index} className={`dot ${index === current ? "active" : ""}`} onClick={() => setCurrent(index)} />
                             ))}
-                        </div>
-                    </div>
+                        </section>
+                    </section>
                     
                     <section className="details__info">
                         
