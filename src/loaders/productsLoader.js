@@ -1,6 +1,4 @@
-export default async function productsLoader({ params }) {
-    
-    const id = params.id;
+export default async function productsLoader() {
 
     const response = await fetch('http://localhost:3001/products');
     if (!response.ok) {

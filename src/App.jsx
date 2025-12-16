@@ -1,4 +1,5 @@
 import historiesLoader from './loaders/historyLoader';
+import productDetailsLoader from './loaders/productDetailsLoader';
 import productsLoader from './loaders/productsLoader';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -29,7 +30,7 @@ export default function App() {
       {
         path: '/shop/:id',
         element: <Product />,
-        loader: productsLoader,
+        loader: productDetailsLoader,
         hydrateFallbackElement: <p>Loading Product...</p>
       },
       {

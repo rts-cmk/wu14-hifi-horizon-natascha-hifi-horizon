@@ -6,12 +6,7 @@ import './Compare.sass';
 
 export default function Compare() {
 
-    const products = useLoaderData();
-
-    const { id } = useParams();
-    
-    const product = products.find(p => p.id == id);
-
+    const product = useLoaderData();
 
     return (
         <section className="compare">
