@@ -3,12 +3,23 @@
     
     
 .compare
+    position: relative
     background-color: var.$box-bg-color
     padding: 2rem
     display: flex
     flex-direction: column
     align-items: center
     gap: 2rem
+
+    &__remove-product
+        position: absolute
+        top: 1rem
+        right: .5rem
+        color: var.$box-bg-color
+        background: none
+        border: none
+        font-size: 40px
+        cursor: pointer
 
     &__button
         @include mixin.button()

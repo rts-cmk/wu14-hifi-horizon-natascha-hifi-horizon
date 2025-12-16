@@ -1,5 +1,6 @@
-import { useLoaderData, useParams } from 'react-router';
+import { useLoaderData } from 'react-router';
 import ProductItem from '../ProductItem/ProductItem';
+import { TbLetterX } from "react-icons/tb";
 import { FiSliders } from "react-icons/fi";
 import './Compare.sass';
 
@@ -11,7 +12,7 @@ export default function Compare() {
     return (
         <section className="compare">
             <ProductItem product={product} >
-                <button className='compare__remove-product'>X</button>
+                <button className='compare__remove-product'><TbLetterX /></button>
             </ProductItem>
 
             <section className="compare__button">
