@@ -14,15 +14,25 @@ export default function Header() {
         event.currentTarget.querySelector('nav').classList.toggle('header__nav--active');
     };
 
+    // function to toggle search active state
+    const toggleSearch = (event) => {
+        event.currentTarget.classList.toggle('header__search--active');
+        document.querySelector('input').classList.toggle('header__search-input--active');
+    };
+
     // bool for burger menu active state (set to --active if menu is open)
     const isActive = false;
 
     return (
         <header className='header'>
                 
-                <section className='header__search icon'>
-                    <IoSearchSharp />
+                <section onClick={toggleSearch} className={isActive
+                     ? "header__search--active" : "header__search"
+                }>
+                    <IoSearchSharp className="search-icon"/>
+
                 </section>
+                <input type="text" name="search" className='header__search-input' placeholder='Search product...' />
                     
                 <section className='header__user icon'>
                     <HiUser />
@@ -32,9 +42,9 @@ export default function Header() {
                     <FaShoppingCart />
                 </section>
                 
-                <section onClick={toggleMenu} className={isActive
-                     ? "header__burger-menu--active" : "header__burger-menu"
-                }>    
+                {/* when clicking on burger menu, toggle active state */}
+                <section onClick={toggleMenu} className={isActive ? "header__burger-menu--active" : "header__burger-menu"}>    
+                    
                     <section className='header__burger-lines'>
                         <div></div>
                         <div></div>
