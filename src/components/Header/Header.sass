@@ -24,12 +24,29 @@
             border: 2px solid var.$secondary-text-color
             border-radius: 2px
             margin: 2px 0
+            transition: .5s ease-in-out
         &--active
             div
                 border: 2px solid var.$button-bg-color
+            div:nth-child(1)
+                position: relative
+                top: 5px
+                transform: rotate(45deg)
+                transition: .5s ease-in-out
+            div:nth-child(2)
+                opacity: 0
+                transition: .5s ease-in-out
+            div:nth-child(3)
+                position: relative
+                top: -7px
+                transform: rotate(-45deg)
+                transition: .5s ease-in-out
+                
+    
     &__burger-menu:hover
         cursor: pointer
 
+    
     &__nav
         display: none
         

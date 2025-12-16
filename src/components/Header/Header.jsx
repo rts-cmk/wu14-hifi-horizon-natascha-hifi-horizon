@@ -8,8 +8,8 @@ import './Header.sass'
 
 export default function Header() {
    
+    // function to toggle burger menu active state
     const toggleMenu = (event) => {
-        console.log('toggle menu');
         event.currentTarget.classList.toggle('header__burger-menu--active');
         event.currentTarget.querySelector('nav').classList.toggle('header__nav--active');
     };
