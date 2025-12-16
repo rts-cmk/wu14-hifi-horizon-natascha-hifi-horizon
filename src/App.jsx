@@ -4,7 +4,7 @@ import productsLoader from './loaders/productsLoader';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
-import Faq from './pages/FAQ'
+import Faq from './pages/Faq';
 import Home from './pages/Home';
 import Product from './pages/Product';
 import Shop from './pages/Shop';
