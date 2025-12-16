@@ -1,5 +1,6 @@
+import { Link } from "react-router";
 import { FaPhoneAlt } from "react-icons/fa";
-import { ImFacebook2 } from "react-icons/im";
+import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareTwitter } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutubeSquare } from "react-icons/fa";
@@ -22,10 +23,10 @@ export default function Footer() {
             </nav>
             
             <section className='footer__support'>
-                <a href="#">returns & refunds</a>
-                <a href="#">delivery</a>
-                <a href="#">privacy policy</a>
-                <a href="#">terms & conditions</a>
+                <a href="/faq">returns and refunds</a>
+                <a href="/faq">delivery</a>
+                <a href="/faq">privacy policy</a>
+                <a href="/faq">terms & conditions</a>
             </section>
             
             <section className='footer__contact'>
@@ -45,7 +46,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='footer__socials'>
-                    <ImFacebook2  className="footer__socials-icon" />
+                    <FaFacebookSquare className="footer__socials-icon" />
                     <FaSquareTwitter className="footer__socials-icon" />
                     <FaInstagramSquare className="footer__socials-icon" />
                     <FaYoutubeSquare className="footer__socials-icon" />
