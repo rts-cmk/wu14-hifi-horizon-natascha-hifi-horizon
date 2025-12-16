@@ -2,12 +2,14 @@
 @use '../../style/mixins.sass' as mixin
     
     
+// MARK: Details
 .details
     position: relative
     border-bottom: 1px solid #D2D2D2
     padding: 3rem 2rem
     margin: 2rem 0 0
     
+    // MARK: Compare button
     &__compare
         position: absolute
         top: 20px
@@ -16,72 +18,64 @@
         align-items: center
         gap: 5px
     
-    // &__images
-    //     display: flex
-    //     gap: 1rem
-    //     height: 200px
-    //     overflow-x: auto
-    //     img
-    //         width: 100%
-    //         height: 100%
-    //         object-fit: contain
-    //         cursor: pointer
-    //         border: 2px solid transparent
-
-    &__images
-        width: 100%
-        text-align: center
+    // MARK: Slider Images
+    &__images-slider
         position: relative
+        width: 100%
 
-        .slider
-            position: relative
-            width: 100%
-            height: 200px
-            overflow: hidden
+        // MARK: Slider buttons
+        .slider__btn
+            position: absolute
+            top: 50%
+            background: transparent
+            transform: translateY(-50%)
+            color: #D2D2D2
+            border: none
+            font-size: 48px
+            cursor: pointer
+            z-index: 2
+            &--left
+                left: -45px
+                padding: 10px 5px 10px 0
+            &--right
+                right: -45px
+                padding: 10px 0 10px 5px
 
-            .images-wrapper
-                display: flex
-                transition: transform 0.5s ease-in-out
-                height: 100%
-                width: 100%
-            .active-image
-                width: 100%
-                height: 70%
-                object-fit: contain
-                display: block
-            .nav
-                position: absolute
-                top: 85%
-                transform: translateY(-50%)
-                background: rgba(0,0,0,0.5)
-                color: white
-                border: none
-                padding: 0.5rem 1rem
-                cursor: pointer
-                font-size: 2rem
-                border-radius: 50%
-                user-select: none
-            .prev
-                left: 10px
-                z-index: 1
-            .next
-                right: 10px
-                z-index: 1
-
-        .dots
+        // MARK: Slider dots
+        .slider__dots
             display: flex
             justify-content: center
-            margin-top: 1rem
-            gap: 0.5rem
+            margin-top: .5rem
             .dot
                 width: 10px
                 height: 10px
                 border-radius: 50%
-                background: #ccc
+                background: transparent
+                border: 1px solid #D2D2D2
+                margin: 0 .25rem
                 cursor: pointer
             .active
-                background: #333
+                background: #D2D2D2
 
+    // MARK: Images Container
+    // container to hold all images
+    &__images
+        overflow: hidden
+        height: 200px
+        width: 100%
+
+    // MARK: Image Track
+    // track for making the sliding effect
+    &__images-track
+        display: flex
+        height: 100%
+        transition: transform .4s ease
+        .image
+            min-width: 100%
+            height: 100%
+            object-fit: contain
+
+    // MARK: Product Info
     &__info
         margin-top: 1rem
 
@@ -94,6 +88,7 @@
         p
             margin-bottom: 1rem
 
+    // MARK: Color Options
     &__colors
         display: flex
         align-items: center
@@ -113,6 +108,7 @@
         &--active
             border: 2px solid var.$tertiary-bg-color
     
+    // MARK: Pricing / Stock
     &__pricing-stock
         display: flex
         justify-content: space-between
@@ -130,6 +126,7 @@
             border-radius: 50%
             display: inline-block
     
+    // MARK: Purchase Section
     &__purchase
         display: flex
         align-items: center
