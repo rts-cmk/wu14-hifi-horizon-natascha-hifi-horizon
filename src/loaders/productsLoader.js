@@ -1,6 +1,6 @@
 export default async function productsLoader() {
 
-    const response = await fetch('http://localhost:3001/products');
+    const response = await fetch('https://natascha-hifi-horizon.onrender.com/products');
     if (!response.ok) {
         throw new Error('Failed to fetch products');
     }
