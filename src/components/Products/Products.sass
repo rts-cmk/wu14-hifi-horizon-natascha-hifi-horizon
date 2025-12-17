@@ -2,12 +2,26 @@
     
     
     
+// MARK: Products
 .products
     background-color: var.$primary-bg-color
     padding: 2rem 0
 
+    // MARK: Items
     &__items
         display: grid
         grid-template-columns: 1fr
         grid-template-rows: auto
         gap: 2rem
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    
+    .products
+
+        // MARK: Items
+        &__items
+            grid-template-columns: repeat(2, 1fr)
