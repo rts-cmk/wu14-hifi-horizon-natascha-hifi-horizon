@@ -1,12 +1,16 @@
 @use './variables' as var
 
-    
+
+
+// MARK: Global Styles
 *
     margin: 0
     padding: 0
     box-sizing: border-box
     font-family: "OpenSans", sans-serif
 
+
+// MARK: Error Page
 .error
     color: var.$error-color
     display: flex
@@ -15,6 +19,8 @@
     align-items: center
     height: 90vh
 
+
+// MARK: Page Layout
 .shop, .product, .about, .contact, .faq
     background-color: var.$primary-bg-color
     padding: 150px 1rem 50px
@@ -22,3 +28,13 @@
         color: var.$headline-color
         text-align: center
         text-transform: uppercase
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    .shop, .product, .about, .contact, .faq
+        padding: 200px 4rem
+        h1
+            font-size: 48px
