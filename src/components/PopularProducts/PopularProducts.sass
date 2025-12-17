@@ -2,24 +2,30 @@
 @use '../../style/mixins' as mixin
 
 
+// MARK: Popular Products
 .popular-products
     padding: 2rem 1rem
     background-color: var.$primary-bg-color
 
+    // MARK: Header
     &__header
         display: flex
         justify-content: space-between
         align-items: center
         margin-bottom: 2rem
 
+    // MARK: Title
     &__title
         font-size: 24px
         color: var.$headline-color
         text-transform: uppercase
 
+    // MARK: Button
     &__button
         @include mixin.button()
 
+    
+    // MARK: Items Container
     &__items
         // display: grid
         // grid-template-columns: 1fr
@@ -31,9 +37,41 @@
         height: 480px
         width: 100%
         padding: 0 0 .5rem
-        // &::-webkit-scrollbar
-            // display: none
+        &::-webkit-scrollbar
+            display: none
 
+        // MARK: Item
         .product-item
             margin-right: 1rem
             width: 80%
+
+
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 600px)
+    .popular-products
+        padding: 3rem 2rem
+
+
+        // MARK: Title
+        &__title
+            font-size: 32px
+
+
+        // MARK: Button
+        &__button
+            padding: 1rem 2rem
+            font-size: 18px
+
+
+        // MARK: Items Container
+        &__items
+            height: 520px
+
+
+            // MARK: Item
+            .product-item
+                width: 60%
