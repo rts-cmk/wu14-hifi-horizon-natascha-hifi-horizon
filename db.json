@@ -65,7 +65,7 @@
     },
     {
       "id": 4,
-      "image": "/historyimages/tailored_for_you.png",
+      "image": "./historyimages/tailored_for_you.png",
       "title": "Tailored For You",
       "subtitle": "We look forward to customising a system to meet your needs. ",
       "paragraphs": [
