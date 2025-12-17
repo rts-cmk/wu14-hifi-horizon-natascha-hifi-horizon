@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/wu14-hifi-horizon-natascha-hifi-horizon/",
   plugins: [react()],
   build: {
     outDir: 'docs',
