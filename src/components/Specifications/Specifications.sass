@@ -1,16 +1,21 @@
 @use '../../style/variables.sass' as var
     
     
-    
+
+
+// MARK: Specifications    
 .specifications
     padding: 3rem 0
 
+
+    // MARK: Title
     &__title
         text-align: center
         margin-bottom: 2rem
         font-size: 22px
         text-transform: uppercase
 
+    // MARK: Table
     &__table
         width: 100%
         border-collapse: collapse
@@ -24,9 +29,28 @@
         tr:nth-child(odd)
             background-color: var.$box-bg-color
         
+    // MARK: Names, Values
     &__spec-name
         font-weight: bold
         border-right: 1px solid #D2D2D2
     &__spec-value
         text-align: right
-        font-style: italic
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    .specifications
+
+        &__title
+            font-size: 28px
+
+        &__table
+            th
+                padding: 2.5rem
+            td
+                padding: 1.5rem
+
+        &__spec-name, &__spec-value
+            font-size: 18px
