@@ -65,7 +65,7 @@
     },
     {
       "id": 4,
-      "image": "./historyimages/tailored_for_you.png",
+      "image": "/historyimages/tailored_for_you.png",
       "title": "Tailored For You",
       "subtitle": "We look forward to customising a system to meet your needs. ",
       "paragraphs": [
@@ -94,9 +94,9 @@
       "id": 1,
       "views": 150,
       "image": [
-        "./productimages/cd_afspillere/creek_classic_cd.jpg",
-        "./productimages/cd_afspillere/creek_classic_cd.jpg",
-        "./productimages/cd_afspillere/creek_classic_cd.jpg"
+        "/productimages/creek_classic_cd.jpg",
+        "/productimages/creek_classic_cd.jpg",
+        "/productimages/creek_classic_cd.jpg"
       ],
       "name": "Creek Classic CD",
       "output": "Digital coaxial and optical",
@@ -123,9 +123,9 @@
       "id": 2,
       "views": 152,
       "image": [
-        "/productimages/cd_afspillere/creek_Destiny_CD.jpg",
-        "/productimages/cd_afspillere/creek_Destiny_CD.jpg",
-        "/productimages/cd_afspillere/creek_Destiny_CD.jpg"
+        "/productimages/creek_Destiny_CD.jpg",
+        "/productimages/creek_Destiny_CD.jpg",
+        "/productimages/creek_Destiny_CD.jpg"
       ],
       "name": "Creek Destiny CD",
       "output": "Digital coaxial and optical",
@@ -152,9 +152,9 @@
       "id": 3,
       "views": 134,
       "image": [
-        "/productimages/cd_afspillere/creek_evo_cd.jpg",
-        "/productimages/cd_afspillere/creek_evo_cd.jpg",
-        "/productimages/cd_afspillere/creek_evo_cd.jpg"
+        "/productimages/creek_evo_cd.jpg",
+        "/productimages/creek_evo_cd.jpg",
+        "/productimages/creek_evo_cd.jpg"
       ],
       "name": "Creek Evo CD",
       "output": "Digital coaxial and optical",
@@ -181,9 +181,9 @@
       "id": 4,
       "views": 123,
       "image": [
-        "/productimages/cd_afspillere/Exp_2010S_CD.gif",
-        "/productimages/cd_afspillere/Exp_2010S_CD.gif",
-        "/productimages/cd_afspillere/Exp_2010S_CD.gif"
+        "/productimages/Exp_2010S_CD.gif",
+        "/productimages/Exp_2010S_CD.gif",
+        "/productimages/Exp_2010S_CD.gif"
       ],
       "name": "Creek Exp 2010S CD",
       "output": "Digital coaxial and optical",
@@ -210,9 +210,9 @@
       "id": 5,
       "views": 145,
       "image": [
-        "/productimages/dvdafspillere/creek_classic.jpg",
-        "/productimages/dvdafspillere/creek_classic.jpg",
-        "/productimages/dvdafspillere/creek_classic.jpg"
+        "/productimages/creek_classic.jpg",
+        "/productimages/creek_classic.jpg",
+        "/productimages/creek_classic.jpg"
       ],
       "name": "Creek Classic DVD",
       "output": "Digital coaxial and optical",
@@ -239,9 +239,9 @@
       "id": 6,
       "views": 145,
       "image": [
-        "/productimages/dvdafspillere/exposure_2010S.jpg",
-        "/productimages/dvdafspillere/exposure_2010S.jpg",
-        "/productimages/dvdafspillere/exposure_2010S.jpg"
+        "/productimages/exposure_2010S.jpg",
+        "/productimages/exposure_2010S.jpg",
+        "/productimages/exposure_2010S.jpg"
       ],
       "name": "Exposure 2010S DVD",
       "output": "Digital coaxial and optical",
@@ -268,9 +268,9 @@
       "id": 7,
       "views": 190,
       "image": [
-        "/productimages/dvdafspillere/parasound_d200.jpg",
-        "/productimages/dvdafspillere/parasound_d200.jpg",
-        "/productimages/dvdafspillere/parasound_d200.jpg"
+        "/productimages/parasound_d200.jpg",
+        "/productimages/parasound_d200.jpg",
+        "/productimages/parasound_d200.jpg"
       ],
       "name": "Parasound D200",
       "output": "Digital coaxial and optical",
@@ -297,9 +297,9 @@
       "id": 8,
       "views": 179,
       "image": [
-        "/productimages/dvdafspillere/parasound_halod3.jpg",
-        "/productimages/dvdafspillere/parasound_halod3.jpg",
-        "/productimages/dvdafspillere/parasound_halod3.jpg"
+        "/productimages/parasound_halod3.jpg",
+        "/productimages/parasound_halod3.jpg",
+        "/productimages/parasound_halod3.jpg"
       ],
       "name": "Parasound Halo D3",
       "output": "Digital coaxial and optical",
@@ -326,9 +326,9 @@
       "id": 9,
       "views": 179,
       "image": [
-        "/productimages/effektforstaerkere/manley_mahi.jpg",
-        "/productimages/effektforstaerkere/manley_mahi.jpg",
-        "/productimages/effektforstaerkere/manley_mahi.jpg"
+        "/productimages/manley_mahi.jpg",
+        "/productimages/manley_mahi.jpg",
+        "/productimages/manley_mahi.jpg"
       ],
       "name": "Manley Mahi",
       "output": "Digital coaxial and optical",
@@ -355,9 +355,9 @@
       "id": 10,
       "views": 168,
       "image": [
-        "/productimages/effektforstaerkere/manley_neoclassic300b.jpg",
-        "/productimages/effektforstaerkere/manley_neoclassic300b.jpg",
-        "/productimages/effektforstaerkere/manley_neoclassic300b.jpg"
+        "/productimages/manley_neoclassic300b.jpg",
+        "/productimages/manley_neoclassic300b.jpg",
+        "/productimages/manley_neoclassic300b.jpg"
       ],
       "name": "Manley Neoclassic 300B",
       "output": "Digital coaxial and optical",
@@ -384,9 +384,9 @@
       "id": 11,
       "views": 175,
       "image": [
-        "/productimages/effektforstaerkere/manley_snapper.jpg",
-        "/productimages/effektforstaerkere/manley_snapper.jpg",
-        "/productimages/effektforstaerkere/manley_snapper.jpg"
+        "/productimages/manley_snapper.jpg",
+        "/productimages/manley_snapper.jpg",
+        "/productimages/manley_snapper.jpg"
       ],
       "name": "Manley Snapper",
       "output": "Digital coaxial and optical",
@@ -413,9 +413,9 @@
       "id": 12,
       "views": 154,
       "image": [
-        "/productimages/effektforstaerkere/parasound_haloa23.jpg",
-        "/productimages/effektforstaerkere/parasound_haloa23.jpg",
-        "/productimages/effektforstaerkere/parasound_haloa23.jpg"
+        "/productimages/parasound_haloa23.jpg",
+        "/productimages/parasound_haloa23.jpg",
+        "/productimages/parasound_haloa23.jpg"
       ],
       "name": "Parasound Halo A23",
       "output": "Digital coaxial and optical",
@@ -442,9 +442,9 @@
       "id": 13,
       "views": 145,
       "image": [
-        "/productimages/forforstaerkere/creek_OBH_22_Passive_Preamp.jpg",
-        "/productimages/forforstaerkere/creek_OBH_22_Passive_Preamp.jpg",
-        "/productimages/forforstaerkere/creek_OBH_22_Passive_Preamp.jpg"
+        "/productimages/creek_OBH_22_Passive_Preamp.jpg",
+        "/productimages/creek_OBH_22_Passive_Preamp.jpg",
+        "/productimages/creek_OBH_22_Passive_Preamp.jpg"
       ],
       "name": "Creek OBH 22 Passive Preamp",
       "output": "Digital coaxial and optical",
@@ -471,9 +471,9 @@
       "id": 14,
       "views": 146,
       "image": [
-        "/productimages/forforstaerkere/parasound_classic7100.jpg",
-        "/productimages/forforstaerkere/parasound_classic7100.jpg",
-        "/productimages/forforstaerkere/parasound_classic7100.jpg"
+        "/productimages/parasound_classic7100.jpg",
+        "/productimages/parasound_classic7100.jpg",
+        "/productimages/parasound_classic7100.jpg"
       ],
       "name": "Parasound Classic 7100",
       "output": "Digital coaxial and optical",
@@ -500,9 +500,9 @@
       "id": 15,
       "views": 132,
       "image": [
-        "/productimages/forforstaerkere/parasound_halop3.jpg",
-        "/productimages/forforstaerkere/parasound_halop3.jpg",
-        "/productimages/forforstaerkere/parasound_halop3.jpg"
+        "/productimages/parasound_halop3.jpg",
+        "/productimages/parasound_halop3.jpg",
+        "/productimages/parasound_halop3.jpg"
       ],
       "name": "Parasound Halo P3",
       "output": "Digital coaxial and optical",
@@ -529,9 +529,9 @@
       "id": 16,
       "views": 180,
       "image": [
-        "/productimages/forforstaerkere/Project_prebox.jpg",
-        "/productimages/forforstaerkere/Project_prebox.jpg",
-        "/productimages/forforstaerkere/Project_prebox.jpg"
+        "/productimages/Project_prebox.jpg",
+        "/productimages/Project_prebox.jpg",
+        "/productimages/Project_prebox.jpg"
       ],
       "name": "Project Prebox",
       "output": "Digital coaxial and optical",
@@ -558,9 +558,9 @@
       "id": 17,
       "views": 159,
       "image": [
-        "/productimages/hojtalere/boesendorfer_vcs_wall.gif",
-        "/productimages/hojtalere/boesendorfer_vcs_wall.gif",
-        "/productimages/hojtalere/boesendorfer_vcs_wall.gif"
+        "/productimages/boesendorfer_vcs_wall.gif",
+        "/productimages/boesendorfer_vcs_wall.gif",
+        "/productimages/boesendorfer_vcs_wall.gif"
       ],
       "name": "Bösendorfer VCS Wall",
       "output": "Digital coaxial and optical",
@@ -587,9 +587,9 @@
       "id": 18,
       "views": 193,
       "image": [
-        "/productimages/hojtalere/epos_m5.gif",
-        "/productimages/hojtalere/epos_m5.gif",
-        "/productimages/hojtalere/epos_m5.gif"
+        "/productimages/epos_m5.gif",
+        "/productimages/epos_m5.gif",
+        "/productimages/epos_m5.gif"
       ],
       "name": "Epos M5",
       "output": "Digital coaxial and optical",
@@ -616,9 +616,9 @@
       "id": 19,
       "views": 123,
       "image": [
-        "/productimages/hojtalere/harbeth_hl7es2.jpg",
-        "/productimages/hojtalere/harbeth_hl7es2.jpg",
-        "/productimages/hojtalere/harbeth_hl7es2.jpg"
+        "/productimages/harbeth_hl7es2.jpg",
+        "/productimages/harbeth_hl7es2.jpg",
+        "/productimages/harbeth_hl7es2.jpg"
       ],
       "name": "Harbeth HL7ES2",
       "output": "Digital coaxial and optical",
@@ -645,9 +645,9 @@
       "id": 20,
       "views": 294,
       "image": [
-        "/productimages/hojtalere/harbeth_monitor30.jpg",
-        "/productimages/hojtalere/harbeth_monitor30.jpg",
-        "/productimages/hojtalere/harbeth_monitor30.jpg"
+        "/productimages/harbeth_monitor30.jpg",
+        "/productimages/harbeth_monitor30.jpg",
+        "/productimages/harbeth_monitor30.jpg"
       ],
       "name": "Harbeth Monitor 30",
       "output": "Digital coaxial and optical",
@@ -674,9 +674,9 @@
       "id": 21,
       "views": 112,
       "image": [
-        "/productimages/hojtalere/harbeth_p3es2.jpg",
-        "/productimages/hojtalere/harbeth_p3es2.jpg",
-        "/productimages/hojtalere/harbeth_p3es2.jpg"
+        "/productimages/harbeth_p3es2.jpg",
+        "/productimages/harbeth_p3es2.jpg",
+        "/productimages/harbeth_p3es2.jpg"
       ],
       "name": "Harbeth P3ES2",
       "output": "Digital coaxial and optical",
@@ -703,9 +703,9 @@
       "id": 22,
       "views": 123,
       "image": [
-        "/productimages/int_forstaerkere/creek_a50i.jpg",
-        "/productimages/int_forstaerkere/creek_a50i.jpg",
-        "/productimages/int_forstaerkere/creek_a50i.jpg"
+        "/productimages/creek_a50i.jpg",
+        "/productimages/creek_a50i.jpg",
+        "/productimages/creek_a50i.jpg"
       ],
       "name": "Creek A50L",
       "output": "Digital coaxial and optical",
@@ -732,9 +732,9 @@
       "id": 23,
       "views": 165,
       "image": [
-        "/productimages/int_forstaerkere/creek_classic5350SE.jpg",
-        "/productimages/int_forstaerkere/creek_classic5350SE.jpg",
-        "/productimages/int_forstaerkere/creek_classic5350SE.jpg"
+        "/productimages/creek_classic5350SE.jpg",
+        "/productimages/creek_classic5350SE.jpg",
+        "/productimages/creek_classic5350SE.jpg"
       ],
       "name": "Creek Classic 5350 SE",
       "output": "Digital coaxial and optical",
@@ -761,9 +761,9 @@
       "id": 24,
       "views": 123,
       "image": [
-        "/productimages/int_forstaerkere/creek_destinyamp.jpg",
-        "/productimages/int_forstaerkere/creek_destinyamp.jpg",
-        "/productimages/int_forstaerkere/creek_destinyamp.jpg"
+        "/productimages/creek_destinyamp.jpg",
+        "/productimages/creek_destinyamp.jpg",
+        "/productimages/creek_destinyamp.jpg"
       ],
       "name": "Creek Destiny Amp",
       "output": "Digital coaxial and optical",
@@ -790,9 +790,9 @@
       "id": 25,
       "views": 136,
       "image": [
-        "/productimages/int_forstaerkere/manley_snapper.jpg",
-        "/productimages/int_forstaerkere/manley_snapper.jpg",
-        "/productimages/int_forstaerkere/manley_snapper.jpg"
+        "/productimages/manley_snapper_amp.jpg",
+        "/productimages/manley_snapper_amp.jpg",
+        "/productimages/manley_snapper_amp.jpg"
       ],
       "name": "Manley Snapper",
       "output": "Digital coaxial and optical",
@@ -819,9 +819,9 @@
       "id": 26,
       "views": 123,
       "image": [
-        "/productimages/int_forstaerkere/Manley_Stingray.jpg",
-        "/productimages/int_forstaerkere/Manley_Stingray.jpg",
-        "/productimages/int_forstaerkere/Manley_Stingray.jpg"
+        "/productimages/Manley_Stingray.jpg",
+        "/productimages/Manley_Stingray.jpg",
+        "/productimages/Manley_Stingray.jpg"
       ],
       "name": "Manley Stingray",
       "output": "Digital coaxial and optical",
@@ -848,9 +848,9 @@
       "id": 27,
       "views": 145,
       "image": [
-        "/productimages/pladespillere/Pro_ject_Debut_3_bl.jpg",
-        "/productimages/pladespillere/Pro_ject_Debut_3_bl.jpg",
-        "/productimages/pladespillere/Pro_ject_Debut_3_bl.jpg"
+        "/productimages/Pro_ject_Debut_3_bl.jpg",
+        "/productimages/Pro_ject_Debut_3_bl.jpg",
+        "/productimages/Pro_ject_Debut_3_bl.jpg"
       ],
       "name": "Pro-Ject Debut 3",
       "output": "Digital coaxial and optical",
@@ -878,9 +878,9 @@
       "id": 28,
       "views": 167,
       "image": [
-        "/productimages/pladespillere/Pro_ject_Debut_III_red_1.jpg",
-        "/productimages/pladespillere/Pro_ject_Debut_III_red_1.jpg",
-        "/productimages/pladespillere/Pro_ject_Debut_III_red_1.jpg"
+        "/productimages/Pro_ject_Debut_III_red_1.jpg",
+        "/productimages/Pro_ject_Debut_III_red_1.jpg",
+        "/productimages/Pro_ject_Debut_III_red_1.jpg"
       ],
       "name": "Pro-Ject Debut III",
       "output": "Digital coaxial and optical",
@@ -908,9 +908,9 @@
       "id": 29,
       "views": 189,
       "image": [
-        "/productimages/pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
-        "/productimages/pladespillere/Pro_ject_Debut_III_yellow_1.jpg",
-        "/productimages/pladespillere/Pro_ject_Debut_III_yellow_1.jpg"
+        "/productimages/Pro_ject_Debut_III_yellow_1.jpg",
+        "/productimages/Pro_ject_Debut_III_yellow_1.jpg",
+        "/productimages/Pro_ject_Debut_III_yellow_1.jpg"
       ],
       "name": "Pro-Ject Debut III",
       "output": "Digital coaxial and optical",
@@ -938,9 +938,9 @@
       "id": 30,
       "views": 175,
       "image": [
-        "/productimages/pladespillere/Pro_ject_rpm_5.jpg",
-        "/productimages/pladespillere/Pro_ject_rpm_5.jpg",
-        "/productimages/pladespillere/Pro_ject_rpm_5.jpg"
+        "/productimages/Pro_ject_rpm_5.jpg",
+        "/productimages/Pro_ject_rpm_5.jpg",
+        "/productimages/Pro_ject_rpm_5.jpg"
       ],
       "name": "Pro-Ject RPM 5",
       "output": "Digital coaxial and optical",
@@ -967,9 +967,9 @@
       "id": 31,
       "views": 198,
       "image": [
-        "/productimages/pladespillere/Pro_ject_rpm10.jpg",
-        "/productimages/pladespillere/Pro_ject_rpm10.jpg",
-        "/productimages/pladespillere/Pro_ject_rpm10.jpg"
+        "/productimages/Pro_ject_rpm10.jpg",
+        "/productimages/Pro_ject_rpm10.jpg",
+        "/productimages/Pro_ject_rpm10.jpg"
       ],
       "name": "Pro-Ject RPM 10",
       "output": "Digital coaxial and optical",
@@ -996,9 +996,9 @@
       "id": 32,
       "views": 176,
       "image": [
-        "/productimages/roer_forstaerkere/jolida_JD102b.jpg",
-        "/productimages/roer_forstaerkere/jolida_JD102b.jpg",
-        "/productimages/roer_forstaerkere/jolida_JD102b.jpg"
+        "/productimages/jolida_JD102b.jpg",
+        "/productimages/jolida_JD102b.jpg",
+        "/productimages/jolida_JD102b.jpg"
       ],
       "name": "Jolida JD102b",
       "output": "Digital coaxial and optical",
@@ -1025,9 +1025,9 @@
       "id": 33,
       "views": 154,
       "image": [
-        "/productimages/roer_forstaerkere/jolida_JD202a.jpg",
-        "/productimages/roer_forstaerkere/jolida_JD202a.jpg",
-        "/productimages/roer_forstaerkere/jolida_JD202a.jpg"
+        "/productimages/jolida_JD202a.jpg",
+        "/productimages/jolida_JD202a.jpg",
+        "/productimages/jolida_JD202a.jpg"
       ],
       "name": "Jolida JD202a",
       "output": "Digital coaxial and optical",
@@ -1054,9 +1054,9 @@
       "id": 34,
       "views": 167,
       "image": [
-        "/productimages/roer_forstaerkere/jolida_JD300b.jpg",
-        "/productimages/roer_forstaerkere/jolida_JD300b.jpg",
-        "/productimages/roer_forstaerkere/jolida_JD300b.jpg"
+        "/productimages/jolida_JD300b.jpg",
+        "/productimages/jolida_JD300b.jpg",
+        "/productimages/jolida_JD300b.jpg"
       ],
       "name": "Jolida JD300b",
       "output": "Digital coaxial and optical",
@@ -1083,9 +1083,9 @@
       "id": 35,
       "views": 189,
       "image": [
-        "/productimages/roer_forstaerkere/jolida_JD302b.jpg",
-        "/productimages/roer_forstaerkere/jolida_JD302b.jpg",
-        "/productimages/roer_forstaerkere/jolida_JD302b.jpg"
+        "/productimages/jolida_JD302b.jpg",
+        "/productimages/jolida_JD302b.jpg",
+        "/productimages/jolida_JD302b.jpg"
       ],
       "name": "Jolida JD302b",
       "output": "Digital coaxial and optical",
@@ -1112,9 +1112,9 @@
       "id": 36,
       "views": 172,
       "image": [
-        "/productimages/roer_forstaerkere/jolida_JD502b.jpg",
-        "/productimages/roer_forstaerkere/jolida_JD502b.jpg",
-        "/productimages/roer_forstaerkere/jolida_JD502b.jpg"
+        "/productimages/jolida_JD502b.jpg",
+        "/productimages/jolida_JD502b.jpg",
+        "/productimages/jolida_JD502b.jpg"
       ],
       "name": "Jolida JD502b",
       "output": "Digital coaxial and optical",
