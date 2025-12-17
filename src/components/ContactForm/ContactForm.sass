@@ -2,6 +2,8 @@
 @use '../../style/mixins' as mixin
     
     
+
+// MARK: Contact Form
 .contact-form
     display: flex
     flex-direction: column
@@ -11,25 +13,50 @@
     margin: 2rem 0
     box-shadow: 2px 2px 5px 1px rgba(166,166,166,0.75)
 
+    // MARK: Label
     &__label
         display: flex
         flex-direction: column
         margin-bottom: 0.5rem
         color: var.$primary-text-color
         font-weight: bold
+        
+        // MARK: Required Indicator
         span
             color: var.$error-color
+
+
+        // MARK: Input
         input, textarea
             background-color: var.$box-bg-color
             border: none
             box-shadow: 2px 2px 2px 1px rgba(166,166,166,0.48)
             height: 40px
             margin: .5rem 0 0
+        // MARK: Textarea
         textarea
             height: 120px
             margin: .5rem 0 1rem
 
+    // MARK: Submit Button
     &__button
         @include mixin.button()
         align-self: flex-end
         padding: .5rem 2rem
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    .contact-form
+        padding: 3rem
+        &__label
+            font-size: 20px
+        &__input, &__textarea
+            height: 50px
+        &__textarea
+            height: 150px
+        &__button
+            padding: 1rem 3rem
+            font-size: 18px
