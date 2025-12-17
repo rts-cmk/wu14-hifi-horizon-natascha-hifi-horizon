@@ -94,9 +94,9 @@
       "id": 1,
       "views": 150,
       "image": [
-        "/productimages/cd_afspillere/creek_classic_cd.jpg",
-        "/productimages/cd_afspillere/creek_classic_cd.jpg",
-        "/productimages/cd_afspillere/creek_classic_cd.jpg"
+        "./productimages/cd_afspillere/creek_classic_cd.jpg",
+        "./productimages/cd_afspillere/creek_classic_cd.jpg",
+        "./productimages/cd_afspillere/creek_classic_cd.jpg"
       ],
       "name": "Creek Classic CD",
       "output": "Digital coaxial and optical",
