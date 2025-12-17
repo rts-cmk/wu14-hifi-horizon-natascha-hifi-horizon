@@ -16,7 +16,7 @@ export default function Contact() {
                 
                 <ContactForm />
 
-                <p>Visit our sister companies <a href="#">Home Sound</a> and <a href="#">The Movie Rooms</a> part of the HiFi Horizon Group. </p>
+                <p className="contact__paragraph">Visit our sister companies <a href="#">Home Sound</a> and <a href="#">The Movie Rooms</a> part of the HiFi Horizon Group. </p>
             
             </main>
             
