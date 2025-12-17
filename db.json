@@ -442,9 +442,14 @@
       "id": 13,
       "views": 145,
       "image": [
-        "/productimages/creek_OBH_22_Passive_Preamp.jpg",
-        "/productimages/creek_OBH_22_Passive_Preamp.jpg",
-        "/productimages/creek_OBH_22_Passive_Preamp.jpg"
+        "/productimages/Creek_OBH_22_Passive_Preamp.jpg",
+        "/productimages/Creek_OBH_22_Passive_Preamp.jpg",
+        "/productimages/Creek_OBH_22_Passive_Preamp.jpg"
+      ],
+      "images": [
+        "/productimages/Creek_OBH_22_Passive_Preamp.jpg",
+        "/productimages/Creek_OBH_22_Passive_Preamp.jpg",
+        "/productimages/Creek_OBH_22_Passive_Preamp.jpg"
       ],
       "name": "Creek OBH 22 Passive Preamp",
       "output": "Digital coaxial and optical",
@@ -703,9 +708,9 @@
       "id": 22,
       "views": 123,
       "image": [
-        "/productimages/creek_a50i.jpg",
-        "/productimages/creek_a50i.jpg",
-        "/productimages/creek_a50i.jpg"
+        "/productimages/creek_a50l.jpg",
+        "/productimages/creek_a50l.jpg",
+        "/productimages/creek_a50l.jpg"
       ],
       "name": "Creek A50L",
       "output": "Digital coaxial and optical",
