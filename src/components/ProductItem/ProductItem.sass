@@ -2,6 +2,7 @@
 @use '../../style/mixins.sass' as mixin
 
     
+// MARK: Product Item
 .product-item
     position: relative
     border-radius: 5px
@@ -15,12 +16,14 @@
     &:last-of-type
         margin-right: 5px
 
+    // MARK: Image
     &__image
         width: 100%
         height: 200px
         object-fit: contain
         margin-bottom: 1rem
 
+    // MARK: Details
     &__details
         text-align: center
         display: flex
@@ -28,6 +31,7 @@
         align-items: center
         width: 100%
 
+    // MARK: Link to Product
     &__link
         font-size: 1.2rem
         margin: 0.5rem 0
@@ -35,19 +39,22 @@
         text-decoration: none
         color: var.$primary-text-color
 
+    // MARK: Output
     &__output
         font-size: 1rem
-        margin-bottom: 1rem
         font-weight: bold
 
+    // MARK: Price
     &__price
         font-size: 1.4rem
         font-weight: bold
         margin: 2rem 0
 
+    // MARK: Button
     &__button
         @include mixin.button()
 
+    // MARK: Compare
     &__compare
         position: absolute
         top: 10px
@@ -58,14 +65,42 @@
     &__compare-icon
         font-size: 24px
 
+    // MARK: Cart Info
     &__cart-info
         display: flex
         align-items: center
         justify-content: space-between
         width: 100%
+
+    // MARK: Stock Indicator
     &__stock
         span
             height: 12px
             width: 12px
             border-radius: 50%
             display: inline-block
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    .product-item
+        padding: 2rem
+
+        // MARK: Link to Product
+        &__link
+            font-size: 20px
+
+        // MARK: Output
+        &__output
+            font-size: 18px
+
+        // MARK: Price
+        &__price
+            font-size: 32px
+
+        // MARK: Button
+        &__button
+            padding: 1rem 2rem
+            font-size: 18px
