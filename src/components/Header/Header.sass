@@ -1,5 +1,7 @@
 @use '../../style/variables' as var
     
+
+// MARK: Header 
 .header
     position: fixed
     left: 0
@@ -12,11 +14,13 @@
     background-color: var.$tertiary-bg-color
     z-index: 99
 
+    // Icons
     .icon
         font-size: 28px
         height: 25px
         color: var.$secondary-text-color
 
+    // MARK: Search Button
     &__search
         position: relative
         cursor: pointer
@@ -27,6 +31,7 @@
         &--active
             .search-icon
                 color: var.$button-bg-color
+    // MARK: Search Input
     &__search-input
         display: none
         position: absolute
@@ -43,6 +48,7 @@
         &--active
             display: block
 
+    // MARK: Burger Menu
     &__burger-menu
         position: relative
         div
@@ -51,6 +57,7 @@
             border-radius: 2px
             margin: 2px 0
             transition: .5s ease-in-out
+        // Open burger menu
         &--active
             div
                 border: 2px solid var.$button-bg-color
@@ -68,25 +75,25 @@
                 transform: rotate(-45deg)
                 transition: .5s ease-in-out
                 
-    
     &__burger-menu:hover
         cursor: pointer
 
-    
+
+    // MARK: Navigation    
     &__nav
         display: none
-        
+        // Open navigation menu
         &--active
             position: absolute
             display: flex
             flex-direction: column
             gap: 2rem
-            top: 3rem
+            top: 60px
             right: -1rem
             padding: 4rem 0
             width: 200px
             background-color: var.$tertiary-bg-color
-            
+    // MARK: Nav Links
     &__navigation-icon
         color: var.$secondary-text-color
         text-decoration: none
@@ -98,3 +105,51 @@
             font-weight: 900
     &__navigation-icon:hover
         font-weight: 700
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 600px)
+    .header
+        padding: 0 4rem
+        height: 120px
+
+        .icon
+            font-size: 40px
+            height: 40px
+        
+        &__search
+            .search-icon
+                font-size: 40px
+        &__search-input
+            top: 120px
+            padding: 1.5rem 0
+            font-size: 20px
+            text-indent: 2rem
+
+        &__burger-menu
+            div
+                width: 40px
+                border: 4px solid var.$secondary-text-color
+                margin: 4px 0
+            &--active
+                div
+                    border: 4px solid var.$button-bg-color
+                div:nth-child(1)
+                    top: 9px
+                div:nth-child(3)
+                    top: -14px
+        
+        &__nav
+            &--active
+                top: 80px
+                right: -4rem
+                padding: 4rem 0
+                width: 400px
+
+        &__navigation-icon
+            font-size: 20px
+            margin: 2rem 0
+            img
+                width: 80px
