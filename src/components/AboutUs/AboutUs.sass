@@ -1,22 +1,53 @@
 @use '../../style/variables.sass' as var
     
     
+// MARK: About Us
 .about-us
     background-color: var.$tertiary-bg-color
     color: var.$button-text-color
     padding: 4rem 2rem
 
+    // MARK: Title
     h2
-        font-size: 1.8rem
+        font-size: 32px
         color: var.$secondary-text-color
     
+
+    // MARK: City Title
     h3
         font-size: 16px
+        font-weight: 900
+    
+    p
+        color: var.$button-text-color
 
+
+    // MARK: What We Do
     &__what-we-do
         padding: 0 0 4rem
         p
             margin: 1rem 0
 
+    // MARK: Locations
     &__city
         margin: 1rem 0
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    .about-us
+        padding: 6rem 4rem
+
+        // MARK: Title
+        h2
+            font-size: 2.4rem
+
+        // MARK: City Title
+        h3
+            font-size: 20px
+        
+        // Paragraphs
+        p
+            font-size: 20px
