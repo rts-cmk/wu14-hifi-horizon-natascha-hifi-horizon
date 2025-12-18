@@ -122,3 +122,56 @@
             grid-row: 3 / 4
         &__methods-icon
             font-size: 62px
+
+
+
+
+
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
+    .footer
+        grid-template-columns: repeat(3, 1fr)
+        padding: 6rem 4rem 0
+
+        // MARK: Nav
+        &__nav
+            grid-column: 1 / 2
+            grid-row: 1 / 2
+            gap: 1rem
+            align-items: flex-start
+            padding: 0 2rem
+
+        // MARK: Support
+        &__support
+            grid-column: 2 / 3
+            grid-row: 1 / 2
+            gap: 1rem
+            align-items: flex-start
+            padding: 0 2rem
+
+        // MARK: Contact
+        &__contact
+            grid-column: 3 / 4
+            grid-row: 1 / 2
+            text-align: left
+            padding: 0 2rem
+            margin: 0 0 2rem
+            
+        &__phone
+            gap: 1rem
+            margin: 1rem 0 0
+            justify-content: flex-start
+        &__phone-icon
+            font-size: 28px
+
+        &__socials
+            justify-content: flex-start
+
+        // MARK: Payments
+        &__payments
+            grid-column: 1 / 4
+            grid-row: 2 / 3
+            text-align: left
+            padding: 2rem
+        &__methods
+            justify-content: flex-start
