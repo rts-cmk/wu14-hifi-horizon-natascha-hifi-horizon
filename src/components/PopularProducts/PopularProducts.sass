@@ -27,10 +27,6 @@
 
     // MARK: Items Container
     &__items
-        // display: grid
-        // grid-template-columns: 1fr
-        // grid-template-rows: auto
-        // gap: 2rem
         display: flex
         flex-wrap: nowrap
         overflow-x: auto
@@ -76,3 +72,27 @@
             .product-item
                 margin-right: 2rem
                 width: 60%
+
+
+
+
+
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
+    .popular-products
+        padding: 3rem 4rem 6rem
+
+        // MARK: Button
+        &__button
+            padding: 1rem 3rem
+
+        // MARK: Items Container
+        &__items
+            display: grid
+            grid-template-columns: repeat(4, 1fr)
+            gap: 2rem
+            height: fit-content
+            // MARK: Item
+            .product-item
+                margin: 0
+                width: 99%
