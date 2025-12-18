@@ -226,3 +226,70 @@
             padding: 1rem 2rem
             width: 100%
             font-size: 20px
+
+
+
+
+
+
+
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
+    .details
+        display: grid
+        grid-template-columns: 45% 1fr
+        gap: 10rem
+        align-items: center
+
+        // MARK: Slider Images
+        &__images-slider
+            height: 400px
+            margin: 0 auto
+
+            // MARK: Slider buttons
+            .slider__btn
+                font-size: 80px
+
+            // MARK: Slider dots
+            .slider__dots
+                position: absolute
+                bottom: -100px
+                left: 50%
+                transform: translateX(-50%)
+
+        // MARK: Images Container
+        &__images
+            overflow: hidden
+            height: 400px
+            width: 80%
+            margin: 0 auto
+
+        // MARK: Image Track
+        // track for making the sliding effect
+        &__images-track
+            display: flex
+            height: 100%
+            transition: transform .4s ease
+        
+
+        // MARK: Product Info
+        &__info
+            margin-top: 0
+
+
+
+
+
+
+
+// MARK: LARGE DESKTOP
+// MARK: DESKTOP
+@media screen and (min-width: 1500px)
+    .details
+        &__images-slider
+            // MARK: Slider buttons
+            .slider__btn
+                &--left
+                    left: -30px
+                &--right
+                    right: -30px
