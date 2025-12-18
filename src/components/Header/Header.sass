@@ -14,6 +14,10 @@
     background-color: var.$tertiary-bg-color
     z-index: 99
 
+    // Desktop Menu and search field hidden on mobile
+    &__menu
+        display: none
+
     // Icons
     .icon
         font-size: 28px
@@ -22,7 +26,6 @@
 
     // MARK: Search Button
     &__search
-        position: relative
         cursor: pointer
         .search-icon
             font-size: 28px
@@ -31,20 +34,26 @@
         &--active
             .search-icon
                 color: var.$button-bg-color
-    // MARK: Search Input
+    // MARK: Search Input Container
     &__search-input
         display: none
         position: absolute
         top: 100px
         left: 0
         width: 100%
-        padding: 1rem 0
-        background-color: var.$box-bg-color
-        border: none
-        font-size: 16px
-        text-indent: 1rem
-        &::placeholder
-            color: var.$primary-text-color
+        // Search Input Field
+        .input
+            width: 100%
+            padding: 1rem 0
+            background-color: var.$box-bg-color
+            border: none
+            font-size: 16px
+            text-indent: 1rem
+            &::placeholder
+                color: var.$primary-text-color
+        // Search Input Icon
+        .input-icon
+            display: none
         &--active
             display: block
 
@@ -109,6 +118,7 @@
 
 
 
+
 // MARK: TABLET
 @media screen and (min-width: 601px)
     .header
@@ -127,9 +137,9 @@
         // MARK: Search Input
         &__search-input
             top: 120px
-            padding: 1.5rem 0
-            font-size: 20px
-            text-indent: 2rem
+            .input
+                font-size: 20px
+                text-indent: 2rem
 
         // MARK: Burger Menu
         &__burger-menu
@@ -162,3 +172,51 @@
             // MARK: Logo
             img
                 width: 80px
+
+
+
+
+
+
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
+    .header
+        display: grid
+        grid-template-columns: 1fr 25% auto auto
+        gap: 3rem
+
+        // MARK: Menu
+        // Desktop Menu and search field visible on desktop
+        &__menu
+            display: flex
+            align-items: center
+            gap: 2rem
+        &__navigation-icon
+            font-size: 18px
+            margin: 0
+            img
+                width: 60px
+
+        // MARK: Search Input Container
+        &__search-input
+            display: block
+            grid-column: 2 / 3
+            position: relative
+            top: 0
+            width: 100%
+            // Search Input Field
+            .input
+                font-size: 18px
+                text-indent: 2rem
+            // Search Input Icon
+            .input-icon
+                display: block
+                position: absolute
+                top: 50%
+                transform: translateY(-50%)
+                right: 10px
+                font-size: 32px
+
+        // Hide search icon, burger menu and nav on desktop
+        &__search, &__burger-menu, &__nav
+            display: none

@@ -17,7 +17,7 @@ export default function Header() {
     // function to toggle search active state
     const toggleSearch = (event) => {
         event.currentTarget.classList.toggle('header__search--active');
-        document.querySelector('input').classList.toggle('header__search-input--active');
+        document.querySelector('.header__search-input').classList.toggle('header__search-input--active');
     };
 
     // bool for burger menu active state (set to --active if menu is open)
@@ -25,57 +25,92 @@ export default function Header() {
 
     return (
         <header className='header'>
+
+            {/* Desktop Menu Navigation */}
+            <section className='header__menu'>
+                <NavLink to="/" className="header__navigation-icon">
+                    <img src={hifi_logo} alt="hifi_logo" />
+                </NavLink>
+                <NavLink to="/shop" 
+                    className={({ isActive }) =>
+                        `header__navigation-icon ${isActive ? "header__navigation-icon--active" : "header__navigation-icon"}`
+                    }
+                    end >
+                    Shop
+                </NavLink>
+                <NavLink to="/about"
+                    className={({ isActive }) =>
+                        `header__navigation-icon ${isActive ? "header__navigation-icon--active" : "header__navigation-icon"}`
+                    }
+                    end >
+                    About Us
+                </NavLink>
+                <NavLink to="/contact" 
+                    className={({ isActive }) =>
+                        `header__navigation-icon ${isActive ? "header__navigation-icon--active" : "header__navigation-icon"}`
+                    }
+                    end >
+                    Contact Us
+                </NavLink>
+            </section>
                 
-                <section onClick={toggleSearch} className={isActive
-                     ? "header__search--active" : "header__search"
-                }>
-                    <IoSearchSharp className="search-icon"/>
 
-                </section>
-                <input type="text" name="search" className='header__search-input' placeholder='Search product...' />
-                    
-                <section className='header__user icon'>
-                    <HiUser />
-                </section>
-
-                <section className='header__cart icon'>
-                    <FaShoppingCart />
-                </section>
+            {/* Search */}
+            <section onClick={toggleSearch} className={isActive ? "header__search--active" : "header__search"}>
+                <IoSearchSharp className="search-icon"/>
+            </section>
+            <section className='header__search-input'>
+                <input type="text" name="search" className='input' placeholder='Search product...' />
+                <IoSearchSharp className="input-icon"/>
+            </section>
                 
-                {/* when clicking on burger menu, toggle active state */}
-                <section onClick={toggleMenu} className={isActive ? "header__burger-menu--active" : "header__burger-menu"}>    
-                    
-                    <section className='header__burger-lines'>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </section>
+            {/* User */}
+            <section className='header__user icon'>
+                <HiUser />
+            </section>
 
-                    <nav className='header__nav'>
-                        <a href="/" className="header__navigation-icon"><img src={hifi_logo} alt="hifi_logo" /></a>
-                        <NavLink to="/shop" 
-                            className={({ isActive }) =>
-                                `header__navigation-icon ${isActive ? "header__navigation-icon--active" : "header__navigation-icon"}`
-                            }
-                            end >
-                            Shop
-                        </NavLink>
-                        <NavLink to="/about" 
-                            className={({ isActive }) =>
-                                `header__navigation-icon ${isActive ? "header__navigation-icon--active" : "header__navigation-icon"}`
-                            }
-                            end >
-                            About Us
-                        </NavLink>
-                        <NavLink to="/contact" 
-                            className={({ isActive }) =>
-                                `header__navigation-icon ${isActive ? "header__navigation-icon--active" : "header__navigation-icon"}`
-                            }
-                            end >
-                            Contact Us
-                        </NavLink> 
-                    </nav>
+            {/* Cart */}
+            <section className='header__cart icon'>
+                <FaShoppingCart />
+            </section>
+            
+            {/* Mobile/Tablet Menu */}
+            {/* when clicking on burger menu, toggle active state */}
+            <section onClick={toggleMenu} className={isActive ? "header__burger-menu--active" : "header__burger-menu"}>    
+                
+                {/* Burger Lines */}
+                <section className='header__burger-lines'>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </section>
+
+                {/* Mobile/Tablet Navigation */}
+                <nav className='header__nav'>
+                    <a href="/" className="header__navigation-icon"><img src={hifi_logo} alt="hifi_logo" /></a>
+                    <NavLink to="/shop" 
+                        className={({ isActive }) =>
+                            `header__navigation-icon ${isActive ? "header__navigation-icon--active" : "header__navigation-icon"}`
+                        }
+                        end >
+                        Shop
+                    </NavLink>
+                    <NavLink to="/about" 
+                        className={({ isActive }) =>
+                            `header__navigation-icon ${isActive ? "header__navigation-icon--active" : "header__navigation-icon"}`
+                        }
+                        end >
+                        About Us
+                    </NavLink>
+                    <NavLink to="/contact" 
+                        className={({ isActive }) =>
+                            `header__navigation-icon ${isActive ? "header__navigation-icon--active" : "header__navigation-icon"}`
+                        }
+                        end >
+                        Contact Us
+                    </NavLink> 
+                </nav>
+            </section>
 
         </header>
     )
