@@ -47,16 +47,51 @@
 
 
 
+
 // MARK: TABLET
 @media screen and (min-width: 601px)
     .contact-form
         padding: 3rem
+    
+        // MARK: Label
         &__label
             font-size: 20px
-        &__input, &__textarea
-            height: 50px
-        &__textarea
-            height: 150px
+
+
+            // MARK: Input
+            input
+                height: 50px
+
+
+            // MARK: Textarea
+            textarea
+                height: 150px
+
+    
+        // MARK: Submit Button
         &__button
             padding: 1rem 3rem
             font-size: 18px
+
+
+
+
+
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
+    .contact-form
+        &__label
+        
+            // MARK: Input
+            input
+                width: 70%
+
+
+            // MARK: Textarea
+            textarea
+                height: 180px
+                margin: .5rem 0 2rem
+
+        // MARK: Submit Button
+        &__button
+            padding: 1rem 3rem
