@@ -1,9 +1,14 @@
+// MARK: Shipping
 .shipping
     margin: 2rem 0 0
 
+
+    // MARK: Title
     h2
         text-transform: uppercase
        
+    
+    // MARK: Paragraphs
     &__paragraphs
         p
             margin-bottom: 1rem
@@ -12,7 +17,20 @@
         p:last-of-type
             margin-bottom: 0
     
+    // MARK: Return Address
     &__return-address
         margin-bottom: 1rem
         p
             margin: 0
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    .shipping
+        h2
+            font-size: 32px
+        &__paragraphs
+            p
+                font-size: 20px
