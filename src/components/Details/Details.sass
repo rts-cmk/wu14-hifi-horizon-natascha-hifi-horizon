@@ -1,0 +1,295 @@
+@use '../../style/variables.sass' as var
+@use '../../style/mixins.sass' as mixin
+    
+    
+// MARK: Details
+.details
+    position: relative
+    border-bottom: 1px solid #D2D2D2
+    padding: 3rem 2rem
+    margin: 2rem 0 0
+    
+    // MARK: Compare button
+    &__compare
+        position: absolute
+        top: 20px
+        right: 20px
+        display: flex
+        align-items: center
+        gap: 5px
+    
+    // MARK: Slider Images
+    &__images-slider
+        position: relative
+        width: 100%
+
+        // MARK: Slider buttons
+        .slider__btn
+            position: absolute
+            top: 50%
+            background: transparent
+            transform: translateY(-50%)
+            color: #D2D2D2
+            border: none
+            font-size: 48px
+            cursor: pointer
+            z-index: 2
+            &--left
+                left: -45px
+                padding: 10px 5px 10px 0
+            &--right
+                right: -45px
+                padding: 10px 0 10px 5px
+
+        // MARK: Slider dots
+        .slider__dots
+            display: flex
+            justify-content: center
+            margin-top: .5rem
+            .dot
+                width: 10px
+                height: 10px
+                border-radius: 50%
+                background: transparent
+                border: 1px solid #D2D2D2
+                margin: 0 .25rem
+                cursor: pointer
+            .active
+                background: #D2D2D2
+
+    // MARK: Images Container
+    // container to hold all images
+    &__images
+        overflow: hidden
+        height: 200px
+        width: 100%
+
+    // MARK: Image Track
+    // track for making the sliding effect
+    &__images-track
+        display: flex
+        height: 100%
+        transition: transform .4s ease
+        .image
+            min-width: 100%
+            height: 100%
+            object-fit: contain
+
+    // MARK: Product Info
+    &__info
+        margin-top: 1rem
+
+    &__title
+        text-align: center
+    
+    &__descriptions
+        margin: 1.5rem 0
+        line-height: 1.2
+        p
+            margin-bottom: 1rem
+
+    // MARK: Color Options
+    &__colors
+        display: flex
+        align-items: center
+        gap: 1rem
+        margin-bottom: 1.5rem
+    &__color
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 0.5rem
+    &__color-span
+        width: 35px
+        height: 35px
+        border-radius: 50%
+        box-shadow: 0px 0px 0px 2px rgba(255,255,255,1) inset
+        cursor: pointer
+        &--active
+            border: 2px solid var.$tertiary-bg-color
+    
+    // MARK: Pricing / Stock
+    &__pricing-stock
+        display: flex
+        justify-content: space-between
+        margin-bottom: 1.5rem
+    &__price
+        font-size: 24px
+        font-weight: bold
+    &__stock
+        display: flex
+        align-items: center
+        gap: .5rem
+        span
+            height: 12px
+            width: 12px
+            border-radius: 50%
+            display: inline-block
+    
+    // MARK: Purchase Section
+    &__purchase
+        display: flex
+        align-items: center
+        gap: 1rem
+    &__quantity
+        display: flex
+        align-items: center
+        gap: 0.5rem
+    &__subtract, &__add
+        font-size: 24px
+        cursor: pointer
+    input[type="number"]
+        width: 40px
+        padding: 0.3rem
+        text-align: center
+        font-size: 18px
+        border: none
+        background-color: var.$primary-bg-color
+    &__button
+        @include mixin.button()
+        padding: 0.5rem 1rem
+        width: 100%
+
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    .details
+        // MARK: Compare button
+        &__compare
+            font-size: 18px
+        &__compare-icon
+            font-size: 24px
+
+        // MARK: Slider buttons
+        .slider__btn
+            font-size: 60px
+            &--left
+                left: -70px
+                padding: 10px 0
+            &--right
+                right: -70px
+                padding: 10px 0
+
+        // MARK: Slider dots
+        .slider__dots
+            margin-top: 1rem
+            .dot
+                width: 15px
+                height: 15px
+                margin: 0 .5rem
+
+        // MARK: Images Container
+        &__images
+            height: 300px
+
+
+        // MARK: Product Info
+        &__info
+            margin-top: 2rem
+
+        &__title
+            font-size: 28px
+        
+        &__descriptions
+            font-size: 20px
+
+        // MARK: Color Options
+        &__color
+            font-size: 18px
+        &__color-span
+            width: 45px
+            height: 45px
+
+        // MARK: Pricing / Stock
+        &__price
+            font-size: 34px
+        &__stock
+            font-size: 20px
+            span
+                height: 16px
+                width: 16px
+
+        // MARK: Purchase Section
+        &__purchase
+            gap: 6rem
+        &__quantity
+        &__subtract, &__add
+            font-size: 32px
+        input[type="number"]
+            width: 50px
+            padding: 0.5rem
+            font-size: 24px
+        &__button
+            padding: 1rem 2rem
+            width: 100%
+            font-size: 20px
+
+
+
+
+
+
+
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
+    .details
+        display: grid
+        grid-template-columns: 45% 1fr
+        gap: 10rem
+        align-items: center
+
+        // MARK: Slider Images
+        &__images-slider
+            height: 400px
+            margin: 0 auto
+
+            // MARK: Slider buttons
+            .slider__btn
+                font-size: 80px
+
+            // MARK: Slider dots
+            .slider__dots
+                position: absolute
+                bottom: -100px
+                left: 50%
+                transform: translateX(-50%)
+
+        // MARK: Images Container
+        &__images
+            overflow: hidden
+            height: 400px
+            width: 80%
+            margin: 0 auto
+
+        // MARK: Image Track
+        // track for making the sliding effect
+        &__images-track
+            display: flex
+            height: 100%
+            transition: transform .4s ease
+        
+
+        // MARK: Product Info
+        &__info
+            margin-top: 0
+
+
+
+
+
+
+
+// MARK: LARGE DESKTOP
+// MARK: DESKTOP
+@media screen and (min-width: 1500px)
+    .details
+        &__images-slider
+            // MARK: Slider buttons
+            .slider__btn
+                &--left
+                    left: -30px
+                &--right
+                    right: -30px

@@ -1,0 +1,222 @@
+@use '../../style/variables' as var
+    
+
+// MARK: Header 
+.header
+    position: fixed
+    left: 0
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 1rem
+    height: 100px
+    background-color: var.$tertiary-bg-color
+    z-index: 99
+
+    // Desktop Menu and search field hidden on mobile
+    &__menu
+        display: none
+
+    // Icons
+    .icon
+        font-size: 28px
+        height: 25px
+        color: var.$secondary-text-color
+
+    // MARK: Search Button
+    &__search
+        cursor: pointer
+        .search-icon
+            font-size: 28px
+            color: var.$secondary-text-color
+            transition: .3s ease-in-out
+        &--active
+            .search-icon
+                color: var.$button-bg-color
+    // MARK: Search Input Container
+    &__search-input
+        display: none
+        position: absolute
+        top: 100px
+        left: 0
+        width: 100%
+        // Search Input Field
+        .input
+            width: 100%
+            padding: 1rem 0
+            background-color: var.$box-bg-color
+            border: none
+            font-size: 16px
+            text-indent: 1rem
+            &::placeholder
+                color: var.$primary-text-color
+        // Search Input Icon
+        .input-icon
+            display: none
+        &--active
+            display: block
+
+    // MARK: Burger Menu
+    &__burger-menu
+        position: relative
+        div
+            width: 25px
+            border: 2px solid var.$secondary-text-color
+            border-radius: 2px
+            margin: 2px 0
+            transition: .5s ease-in-out
+        // Open burger menu
+        &--active
+            div
+                border: 2px solid var.$button-bg-color
+            div:nth-child(1)
+                position: relative
+                top: 5px
+                transform: rotate(45deg)
+                transition: .5s ease-in-out
+            div:nth-child(2)
+                opacity: 0
+                transition: .5s ease-in-out
+            div:nth-child(3)
+                position: relative
+                top: -7px
+                transform: rotate(-45deg)
+                transition: .5s ease-in-out
+                
+    &__burger-menu:hover
+        cursor: pointer
+
+
+    // MARK: Navigation    
+    &__nav
+        display: none
+        // Open navigation menu
+        &--active
+            position: absolute
+            display: flex
+            flex-direction: column
+            gap: 2rem
+            top: 60px
+            right: -1rem
+            padding: 4rem 0
+            width: 200px
+            background-color: var.$tertiary-bg-color
+    // MARK: Nav Links
+    &__navigation-icon
+        color: var.$secondary-text-color
+        text-decoration: none
+        font-size: 16px
+        text-align: center
+        text-transform: uppercase
+        margin: 1rem 0
+        &--active
+            font-weight: 900
+    &__navigation-icon:hover
+        font-weight: 700
+
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    .header
+        padding: 0 4rem
+        height: 120px
+
+        // Icons
+        .icon
+            font-size: 40px
+            height: 40px
+        
+        // MARK: Search Button
+        &__search
+            .search-icon
+                font-size: 40px
+        // MARK: Search Input
+        &__search-input
+            top: 120px
+            .input
+                font-size: 20px
+                text-indent: 2rem
+
+        // MARK: Burger Menu
+        &__burger-menu
+            div
+                width: 40px
+                border: 4px solid var.$secondary-text-color
+                margin: 4px 0
+            // Open burger menu
+            &--active
+                div
+                    border: 4px solid var.$button-bg-color
+                div:nth-child(1)
+                    top: 9px
+                div:nth-child(3)
+                    top: -14px
+        
+        // MARK: Navigation
+        &__nav
+            &--active
+                top: 80px
+                right: -4rem
+                padding: 4rem 0
+                width: 400px
+
+        // MARK: Nav Links
+        &__navigation-icon
+            font-size: 20px
+            margin: 2rem 0
+            
+            // MARK: Logo
+            img
+                width: 80px
+
+
+
+
+
+
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
+    .header
+        display: grid
+        grid-template-columns: 1fr 25% auto auto
+        gap: 3rem
+
+        // MARK: Menu
+        // Desktop Menu and search field visible on desktop
+        &__menu
+            display: flex
+            align-items: center
+            gap: 2rem
+        &__navigation-icon
+            font-size: 18px
+            margin: 0
+            img
+                width: 60px
+
+        // MARK: Search Input Container
+        &__search-input
+            display: block
+            grid-column: 2 / 3
+            position: relative
+            top: 0
+            width: 100%
+            // Search Input Field
+            .input
+                font-size: 18px
+                text-indent: 2rem
+            // Search Input Icon
+            .input-icon
+                display: block
+                position: absolute
+                top: 50%
+                transform: translateY(-50%)
+                right: 10px
+                font-size: 32px
+
+        // Hide search icon, burger menu and nav on desktop
+        &__search, &__burger-menu, &__nav
+            display: none

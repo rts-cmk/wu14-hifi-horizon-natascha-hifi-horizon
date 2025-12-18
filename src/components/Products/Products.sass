@@ -1,0 +1,43 @@
+@use '../../style/variables.sass' as var
+    
+    
+    
+// MARK: Products
+.products
+    background-color: var.$primary-bg-color
+    padding: 2rem 0
+
+    // MARK: Items
+    &__items
+        display: grid
+        grid-template-columns: 1fr
+        grid-template-rows: auto
+        gap: 2rem
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    
+    .products
+
+        // MARK: Items
+        &__items
+            grid-template-columns: repeat(2, 1fr)
+
+
+
+
+
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
+    
+    .products
+        display: grid
+        grid-template-columns: auto 1fr
+        gap: 4rem
+
+        // MARK: Items
+        &__items
+            grid-template-columns: repeat(3, 1fr)

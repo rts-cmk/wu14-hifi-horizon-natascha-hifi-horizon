@@ -1,0 +1,60 @@
+@use './variables' as var
+
+
+
+// MARK: Global Styles
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: "OpenSans", sans-serif
+
+
+// MARK: Error Page
+.error
+    color: var.$error-color
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    height: 90vh
+
+
+// MARK: Page Layout
+.shop, .product, .about, .contact, .faq
+    background-color: var.$primary-bg-color
+    padding: 150px 1rem 50px
+    h1
+        color: var.$headline-color
+        text-align: center
+        text-transform: uppercase
+    &__paragraph
+        a
+            color: var.$button-bg-color
+            text-decoration: none
+
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    .shop, .product, .about, .contact, .faq
+        padding: 200px 4rem
+        h1
+            font-size: 48px
+        &__paragraph
+            font-size: 18px
+
+
+
+
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
+    .shop, .product, .about, .contact, .faq
+        h1
+            text-align: left
+        &__paragraph
+            text-align: center
+            font-size: 24px
+            font-weight: 600

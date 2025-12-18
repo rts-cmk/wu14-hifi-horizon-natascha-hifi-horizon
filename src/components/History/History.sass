@@ -1,0 +1,94 @@
+@use '../../style/variables.sass' as var
+    
+    
+
+// MARK: History
+.history:last-of-type
+    margin-bottom: 0
+
+.history
+    text-align: center
+    margin-bottom: 4rem
+
+    // MARK: Image
+    &__image
+        width: 100%
+        margin-bottom: 1rem
+
+    // MARK: Title
+    &__title
+        text-transform: capitalize
+
+
+    // MARK: Subtitle
+    &__subtitle
+        margin: .5rem 0 2rem
+        color: var.$button-bg-color
+        font-weight: bold
+
+    // MARK: Paragraphs
+    // if paragraph has title
+    &__paragraph
+        // set margin on paragraph container
+        margin: 0 0 1rem
+        // set styles for title and text
+        .paragraph-title, .paragraph-text
+            display: inline
+            margin: 0
+        .paragraph-title
+            font-weight: bold
+
+    // if paragraph has no title
+    &__paragraph--no-title
+        // remove margin from paragraph container
+        margin: 0
+        // set styles for text only
+        .paragraph-text
+            display: block
+            margin: 0 0 1rem
+        .paragraph-text:last-of-type
+            margin-bottom: 0
+
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    
+    .history
+        
+        // MARK: Title
+        &__title
+            font-size: 32px
+
+
+        // MARK: Subtitle
+        &__subtitle
+            font-size: 20px
+
+    
+        // MARK: Paragraphs
+        &__paragraph
+            font-size: 20px
+
+
+
+
+
+
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
+    .history
+        display: grid
+        grid-template-columns: 1fr 1fr
+        gap: 4rem
+        align-items: center
+        
+        // MARK: Image
+        &__image
+            margin: 0
+    
+    // set every other history to display image on right side
+    .history:nth-child(even)
+        direction: rtl

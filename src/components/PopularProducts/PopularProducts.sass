@@ -1,0 +1,97 @@
+@use '../../style/variables' as var
+@use '../../style/mixins' as mixin
+
+
+// MARK: Popular Products
+.popular-products
+    padding: 2rem 1rem
+    background-color: var.$primary-bg-color
+
+    // MARK: Header
+    &__header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 2rem
+
+    // MARK: Title
+    &__title
+        font-size: 24px
+        color: var.$headline-color
+        text-transform: uppercase
+
+    // MARK: Button
+    &__button
+        @include mixin.button()
+
+
+    // MARK: Items Container
+    &__items
+        display: flex
+        flex-wrap: nowrap
+        overflow-x: auto
+        height: 480px
+        width: 100%
+        padding: 0 0 .5rem
+        &::-webkit-scrollbar
+            display: none
+
+        // MARK: Item
+        .product-item
+            margin-right: 1rem
+            width: 80%
+
+
+
+
+
+
+// MARK: TABLET
+@media screen and (min-width: 601px)
+    .popular-products
+        padding: 3rem 4rem
+
+
+        // MARK: Title
+        &__title
+            font-size: 32px
+
+
+        // MARK: Button
+        &__button
+            padding: 1rem 2rem
+            font-size: 18px
+
+
+        // MARK: Items Container
+        &__items
+            height: 520px
+
+
+            // MARK: Item
+            .product-item
+                margin-right: 2rem
+                width: 60%
+
+
+
+
+
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
+    .popular-products
+        padding: 3rem 4rem 6rem
+
+        // MARK: Button
+        &__button
+            padding: 1rem 3rem
+
+        // MARK: Items Container
+        &__items
+            display: grid
+            grid-template-columns: repeat(4, 1fr)
+            gap: 2rem
+            height: fit-content
+            // MARK: Item
+            .product-item
+                width: 99%
