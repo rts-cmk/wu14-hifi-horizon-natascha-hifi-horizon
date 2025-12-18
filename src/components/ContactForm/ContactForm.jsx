@@ -55,22 +55,22 @@ export default function ContactForm() {
         <form className="contact-form" onSubmit={submitContactForm}>
             <label htmlFor="name" className='contact-form__label'>
                 <p>Full Name <span>*</span></p>
-                <input type="text" name="name" value={name} onChange={(event) => setName(event.target.value)} required />
+                <input type="text" id="name" name="name" value={name} onChange={(event) => setName(event.target.value)} required autoComplete='off' />
             </label>
             
             <label htmlFor="email" className='contact-form__label'>
                 <p>Email <span>*</span></p>
-                <input type="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} required />
+                <input type="email" id="email" name="email" value={email} onChange={(event) => setEmail(event.target.value)} required  autoComplete='off' />
             </label>
 
             <label htmlFor="subject" className='contact-form__label'>
                 <p>Subject <span>*</span></p>
-                <input type="text" name="subject" value={subject} onChange={(event) => setSubject(event.target.value)} required />
+                <input type="text" id="subject" name="subject" value={subject} onChange={(event) => setSubject(event.target.value)} required autoComplete='off' />
             </label>
 
             <label htmlFor="message" className='contact-form__label'>
                 <p>Message <span>*</span></p>
-                <textarea name="message" rows="5" value={message} onChange={(event) => setMessage(event.target.value)} required></textarea>
+                <textarea id="message" name="message" rows="5" value={message} onChange={(event) => setMessage(event.target.value)} required autoComplete='off'></textarea>
             </label>
 
             <button type="submit" className='contact-form__button'>Submit</button>
