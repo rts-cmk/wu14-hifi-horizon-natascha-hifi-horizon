@@ -30,11 +30,14 @@
 
 
 
-// // MARK: DESKTOP
-// @media screen and (min-width: 1025px)
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
     
-//     .products
+    .products
+        display: grid
+        grid-template-columns: auto 1fr
+        gap: 4rem
 
-//         // MARK: Items
-//         &__items
-//             grid-template-columns: repeat(4, 1fr)
+        // MARK: Items
+        &__items
+            grid-template-columns: repeat(3, 1fr)
