@@ -31,10 +31,18 @@ export default function Footer() {
             </nav>
             
             <section className='footer__support'>
-                <a href="/faq">returns and refunds</a>
-                <a href="/faq">delivery</a>
-                <a href="/faq">privacy policy</a>
-                <a href="/faq">terms & conditions</a>
+                <Link to="/faq">
+                    returns and refunds 
+                </Link>
+                <Link to="/faq">
+                    delivery
+                </Link>
+                <Link to="/faq">
+                    privacy policy
+                </Link>
+                <Link to="/faq">
+                    terms & conditions
+                </Link>
             </section>
             
             <section className='footer__contact'>
