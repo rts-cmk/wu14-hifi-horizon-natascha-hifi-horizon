@@ -76,7 +76,19 @@
 
 
 
-// .history
-//     display: flex
-// .history:nth-child(even)
-//     flex-direction: row-reverse
+
+// MARK: DESKTOP
+@media screen and (min-width: 1025px)
+    .history
+        display: grid
+        grid-template-columns: 1fr 1fr
+        gap: 4rem
+        align-items: center
+        
+        // MARK: Image
+        &__image
+            margin: 0
+    
+    // set every other history to display image on right side
+    .history:nth-child(even)
+        direction: rtl
